@@ -1,0 +1,2267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RELEASE STATUS DASHBOARD</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="RELEASE STATUS DASHBOARD" />
+		<meta name="keywords" content="RELEASE STATUS DASHBOARD" />
+		<meta name="author" content="lico" />
+		<meta name="fragment" content="!" />
+		<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui'>
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		
+		<link rel="icon" href="/tikitoki/assets/ui/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="/tikitoki/assets/js/libs/datetimepicker/css/bootstrap-datetimepicker.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/tikitoki/assets/css/main-css/latest.css?version=7.111" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/tikitoki/assets/css/main-css/user-controls.css?version=7.111" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/tikitoki/assets/css/admin-css/latest.css?version=7.111" type="text/css" media="screen" />
+		<!--[if IE 6]><link type="text/css" rel="stylesheet" href="/tikitoki/assets/css/screen.ie6.css?version=7.111" /><![endif]-->
+		<!--[if IE 7]><link type="text/css" rel="stylesheet" href="/tikitoki/assets/css/screen.ie7.css?version=7.111" /><![endif]-->
+		<!--[if IE 8]><link type="text/css" rel="stylesheet" href="/tikitoki/assets/css/screen.ie8.css?version=7.111" /><![endif]-->
+		<!--[if IE 9]><link type="text/css" rel="stylesheet" href="/tikitoki/assets/css/screen.ie9.css?version=7.111" /><![endif]-->
+		
+		<!--[if IE]><script type="text/javascript" src="/tikitoki/assets/js/excanvas.compiled.js"></script><![endif]-->
+		<script type="text/javascript" src="/tikitoki/assets/js/libs/jquery/1.7.2/jquery.js"></script>
+		<script type="text/javascript" src="/tikitoki/assets/js/main-js/support.js?version=7.111"></script>
+		<script type="text/javascript" src="/tikitoki/assets/js/libs/datetimepicker/bootstrap-datetimepicker.js"></script>
+		<script type="text/javascript" src="/tikitoki/assets/js/libs/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+		<script type="text/javascript" src="/tikitoki/assets/js/main-js/user-controls.js?version=7.111"></script>
+		<script type="text/javascript" src="/tikitoki/assets/js/main-js/latest.js?version=7.111"></script>
+		<script type="text/javascript" src="/tikitoki/assets/js/admin-js/latest.js?version=7.111"></script>
+
+		<script type="text/javascript" src="/tikitoki/assets/js/main-js/feeds.js?version=7.111"></script>
+
+		<script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-13163340-4']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = '/tikitoki/assets/js/libs/google/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+		</script>
+	</head>
+
+	<body class="tl-non-js-styles">
+		<script type="text/javascript">
+            $("body").removeClass("tl-non-js-styles");
+		</script>
+
+		<div id="console"></div>
+		<div id="tl-container">
+			<div class="tl-data tl-data-userId">
+				417462
+			</div>
+			<div class="tl-data tl-data-secret-userId">
+				
+			</div>
+
+			<div id="tl-image-preloader">
+				<img src="/tikitoki/assets/ui/black-opacity-95.png" alt="" />
+			</div>
+			<div id="tl-header">
+
+				<div class="main-logo">
+					<a href="/">RELEASE STATUS DASHBOARD</a>
+				</div>
+				<h1 class="tl-main-title">发布状态看板</h1>
+				<ul class="main-menu">
+
+					<li>
+						<a popupId="menu-item-about-this-timeline" href="#">帮助</a>
+					</li>
+					<li>
+						<a popupId="ajk-pop-down-panel-contact-us" href="#">联系</a>
+					</li>
+					
+					<li class="last">
+						<a href="#">liujc</a>
+					</li>
+					<!--
+					<li>
+					<a id="menu-item-about-this-timeline" href="#">About this timeline</a>
+					</li>
+					<li class="menu-item-logged-out">
+					<a popupId="ajk-pop-down-panel-login" href="#">Login</a>
+					</li>
+					<li class="last menu-item-logged-out">
+					<a id="pop-down-panel-sign-up-menu-item" popupId="ajk-pop-down-panel-sign-up" href="#">Free sign up</a>
+					</li>
+					<li class="last menu-item-logged-in">
+					<a href="#">Logout</a>
+					</li>
+					-->
+				</ul>
+
+			</div>
+			<div id="tl-filter" class="filter_panel panel panel-default">
+				<fieldset>
+					<legend>搜索</legend>
+					<div class="filter">
+						<table class="table filter_table" width="100%">
+							<colgroup>
+								<col width="120"/>
+								<col/>
+							</colgroup>
+							<tbody>
+								<tr>
+									<td class="highlight">
+										产线
+									</td>
+									<td>
+										<div id="tl-uc-view-filter-block">
+											<ul class="tl-colour-checkbox-list"></ul>
+											<!--<div class="ajk-cs-carousel">
+												<div class="ajk-cs-carousel-stage">
+													<ul class="tl-colour-checkbox-list"></ul>
+												</div>
+											</div>-->
+										</div>	
+									</td>
+								</tr>
+								<tr>
+									<td class="highlight">
+										时段
+									</td>
+									<td>
+										<div id="tl-uc-view-datetime-block">
+											<ul class="tl-colour-checkbox-list"></ul>
+											<!--<div class="ajk-cs-carousel">
+												<div class="ajk-cs-carousel-stage">
+													<ul class="tl-colour-checkbox-list"></ul>
+												</div>
+											</div>-->
+									    </div>
+									   
+									</td>
+								</tr>
+								<tr style="display: none;">
+									<td class="highlight">
+										发布单类型
+									</td>
+									<td>
+										<div id="tl-uc-view-types-block">
+											<ul class="tl-colour-checkbox-list"></ul>
+										</div>
+									</td>
+								</tr>
+								<tr style="display: none;">
+									<td class="highlight">
+										应用类型
+									</td>
+									<td>
+										<div id="tl-uc-view-apps-block">
+											<ul class="tl-colour-checkbox-list"></ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="highlight">
+										关键字搜索
+									</td>
+									<td>										
+										<div id="tl-uc-search-block" class="fp-block fp-block-2">
+											<div class="ft-p1-input-holder" style="width: 324px;">
+												<input id="ft-fch-sp-input" type="text" value="Enter search term" />
+												<a id="ft-fch-sp-button" href="#">Go</a>
+											</div>
+											<div id="ft-p1-filter-text">
+												<h5 id="uc-text-displaying">Displaying:</h5>
+												<span id="ft-fch-sp-everyone-message">All stories</span>
+												<span id="ft-fch-sp-filter-message">
+													<span id="ft-fch-sp-num-stories">X1 stories</span> 
+													<span id="uc-text-matching">matching</span> 
+													<span>'</span><strong id="ft-fch-sp-filter"></strong><span>'</span>
+													<span>(</span><span id="ft-fch-sp-clear">clear</span><span>)</span>
+												</span>
+											</div>
+										</div>
+										<div class="tl-uc-advance-search"><a href="javascript:void(0)">高级搜索</a></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</fieldset>
+			</div>
+
+			<div id="tl-stage-holder" class="tl-font">
+				<div id="tl-stage-main-photo-credit"></div>
+				<div id="tl-stage-scale-blackener"></div>
+				<div class="tl-stage"></div>
+				<div class="tl-stage-fixed-position-content"></div>
+				<div class="tl-stage-fixed-position-scrollbar"></div>
+				<canvas id="tl-3d-view-canvas" width="100" height="100"></canvas>
+
+				<div id="tl-stage-date-displayer"></div>
+				<!--<div class="tl-stage-border-top"></div>-->
+				<!--<div class="tl-stage-border-bottom"></div>-->
+				
+				<!--
+				<a href="#" target="_top" id="tl-copy-timeline-button"> <span>Copy this timeline</span> <span>Login to copy this timeline</span> </a>
+				-->
+				<a href="#" id="tl-timeline-3d-launch">3d</a>
+
+				<div class="tl-main-intro-block">
+					<div class="tl-mib-inner">
+						<div class="tl-mib-image-holder">
+							<img alt="" src="/tikitoki/assets/ui/empty-image.gif" />
+							<div class="tl-mib-image-mask">
+								<span></span>
+							</div>
+						</div>
+						<h3 class="tl-mib-headline"></h3>
+						<div class="tl-mib-content">
+							<p></p>
+						</div>
+					</div>
+				</div>
+				
+				<em class="scrolltop" role="scrolltop" ></em>
+			</div>
+			<div id="tl-slider-holder" class="tl-font">
+				<div id="tl-slider-scale-holder">
+					<div id="tl-slider-scale">
+						<canvas class="tl-scale-canvas" width="5000" height="52"></canvas>
+						<div id="tl-slider-scale-times-holder"></div>
+						<div id="tl-slider-markers-holder"></div>
+					</div>
+				</div>
+				<div id="tl-slider-dragger">
+					<div class="tlsd-inner">
+						<div class="tlsd-inner-inner">
+							<div class="tlsd-corner tlsd-c-tl"></div>
+							<div class="tlsd-corner tlsd-c-tr"></div>
+							<div class="tlsd-corner tlsd-c-bl"></div>
+							<div class="tlsd-corner tlsd-c-br"></div>
+						</div>
+					</div>
+				</div>
+				<div id="tl-slider-interaction-preventer"></div>
+			</div>
+			
+			<div id="tl-footer"></div>
+
+			<div id="tl-uc-holder">
+				<div id="tl-uc-messages">
+					<div class="tl-uc-panel">
+						<div class="tl-ucp-top-right">
+							<div class="tl-ucp-top-left">
+								<div class="tl-ucp-content">
+									<div class="fp-carousel">
+										<div class="fp-stage">
+											<div class="fp-block" style="display: block;">
+												<h3>图表一</h3>
+												<a href="#" class="close-panel">Close</a>
+												<div class="fp-content"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tl-ucp-bottom-right">
+							<div class="tl-ucp-bottom-left"></div>
+						</div>
+					</div>
+					<a href="#" class="launch"><img src="../assets/ui/line.png" style="margin: 9px 3px 0px 0px;"/></a>
+				</div>
+				<div id="tl-uc-charts">
+					<div class="tl-uc-panel">
+						<div class="tl-ucp-top-right">
+							<div class="tl-ucp-top-left">
+								<div class="tl-ucp-content">
+									<div class="fp-carousel">
+										<div class="fp-stage">
+											<div class="fp-block" style="display: block;">
+												<h3>图表一</h3>
+												<a href="#" class="close-panel">Close</a>
+												<div class="fp-content"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tl-ucp-bottom-right">
+							<div class="tl-ucp-bottom-left"></div>
+						</div>
+					</div>
+					<a href="#" class="launch"><img src="../assets/ui/stats.png" style="margin: 9px 3px 0px 0px;"/></a>
+				</div>
+				<div id="tl-uc-controls">
+
+					<div class="tl-uc-panel">
+						<div class="tl-ucp-top-right">
+							<div class="tl-ucp-top-left">
+								<div class="tl-ucp-content">
+
+									<div class="fp-carousel">
+										<div class="fp-stage">
+											<div id="tl-uc-zoom-block" class="fp-block fp-block-0">
+												<h3 id="uc-text-zoom">Zoom</h3>
+												<select>
+													<option></option>
+												</select>
+												<div class="zoom-buttons">
+													<a href="#" class="zoom-in">+</a>
+													<a href="#" class="zoom-out">-</a>
+												</div>
+												<a href="#" class="close-panel">Close</a>
+											</div>
+											
+											<div id="tl-uc-spacing-block" class="fp-block fp-block-1">
+												<h3 id="uc-text-story-spacing">Story Spacing</h3>
+
+												<select>
+													<option value="0">Standard</option>
+													<option value="1">Equal Spacing 1</option>
+													<option value="2">Equal Spacing 2</option>
+													<option value="3">Top to Bottom - 3 rows</option>
+													<option value="4">Top to Bottom - 4 rows</option>
+													<option value="5">Top to Bottom - 5 rows</option>
+													<option value="6">Top to Bottom - 6 rows</option>
+													<option value="7">Top to Bottom - 7 rows</option>
+													<option value="8">Top to Bottom - 8 rows</option>
+													<option value="9">Top to Bottom - 9 rows</option>
+													<option value="10">Top to Bottom - 10 rows</option>
+												</select>
+												<a href="#" class="close-panel">Close</a>
+											</div>
+											<div id="tl-uc-view-type-block" class="fp-block fp-block-2">
+												<h3 id="uc-text-view-type">View Type</h3>
+												<ul class="tl-image-select-list">
+													<li class="tl-isl-standard" view="0">
+														<div class="image-holder">
+															<span></span>
+														</div>
+														<p>
+															Standard
+														</p>
+													</li>
+													<li class="tl-isl-category" view="1">
+														<div class="image-holder">
+															<span></span>
+														</div>
+														<p>
+															Category Bands
+														</p>
+													</li>
+													<li class="tl-isl-coloured" view="2">
+														<div class="image-holder">
+															<span></span>
+														</div>
+														<p>
+															Coloured Stories
+														</p>
+													</li>
+													<li class="tl-isl-duration" view="3">
+														<div class="image-holder">
+															<span></span>
+														</div>
+														<p>
+															Duration
+														</p>
+													</li>
+												</ul>
+												<a href="#" class="close-panel">Close</a>
+											</div>
+											<!--
+											<div id="tl-uc-search-block" class="fp-block fp-block-2">
+												<h3 id="uc-text-search">Search</h3>
+												<div class="ft-p1-input-holder">
+													<input id="ft-fch-sp-input" type="text" value="Enter search term" />
+													<a id="ft-fch-sp-button" href="#">Go</a>
+												</div>
+												<div id="ft-p1-filter-text">
+													<h5 id="uc-text-displaying">Displaying:</h5><span id="ft-fch-sp-everyone-message">All stories</span><span id="ft-fch-sp-filter-message"><span id="ft-fch-sp-num-stories">X1 stories</span> <span id="uc-text-matching">matching</span> '<strong id="ft-fch-sp-filter"></strong>' (<a id="ft-fch-sp-clear" href="#">clear</a>)</span>
+												</div>
+												<a href="#" class="close-panel">Close</a>
+											</div>
+											-->
+											<!--
+											<div id="tl-uc-view-filter-block" class="fp-block fp-block-3 ajk-content-scroller">
+												<h3 id="uc-text-category-filter">Category Filter</h3>
+												<div class="ajk-cs-carousel">
+													<div class="ajk-cs-carousel-stage">
+														<ul class="tl-colour-checkbox-list"></ul>
+													</div>
+													<div class="ajk-cs-carousel-scroll-holder">
+														<a href="#" class="ajk-cs-up-arrow"></a>
+														<a href="#" class="ajk-cs-down-arrow"></a>
+														<div class="ajk-cs-scroll-bar">
+															<span></span>
+														</div>
+													</div>
+												</div>
+												<a href="#" class="close-panel">Close</a>
+											</div>
+											-->
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="tl-ucp-bottom-right">
+							<div class="tl-ucp-bottom-left"></div>
+						</div>
+					</div>
+
+					<div class="menu-holder">
+						<ul>
+							<li fppos="0" class="selected">
+								<a href="#">Zoom</a>
+							</li>
+							
+							<li fppos="1">
+								<a href="#">Spacing</a>
+							</li>
+							<li fppos="2">
+								<a href="#">View Type</a>
+							</li>
+							<!--
+							<li fppos="3">
+								<a href="#">Search</a>
+							</li>
+							<li fppos="4">
+								<a href="#">Categories</a>
+							</li>
+							-->
+							
+						</ul>
+					</div>
+					<a href="#" class="launch">Launch</a>
+				</div>
+			</div>
+				
+			<div id="ajk-pop-down-panel-login" class="ajk-pop-down-panel ajk-pop-down-panel-align-top ajk-pop-down-panel-align-right-top">
+				<div class="top"></div>
+				<div class="content-holder">
+					<div class="content">
+
+						<div class="fp-carousel">
+							<div class="fp-stage">
+
+								<div class="fp-block fp-block-0 ajk-verifier">
+									<h3>Login</h3>
+									<p>
+										Enter your username and password
+									</p>
+									<form>
+										<div class="input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-chars">3-20</span>
+											<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+											<input class="ajk-verifier-control" name="username" value="Username" />
+										</div>
+										<div class="input-holder-relative input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-chars">3-20</span>
+											<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+											<input class="ajk-verifier-control" type="password" name="tikitokipassword" value="" />
+											<div class="ajk-verifier-overlay">
+												Password
+											</div>
+										</div>
+										<a href="#" class="forgotten-password">Forgotten login details?</a>
+										<div class="verification-messages">
+											<p class="ajk-verifier-error-message">
+												Please check details and try again
+											</p>
+											<p class="ajk-verifier-submitting-message">
+												Checking details
+											</p>
+										</div>
+										<a href="#" class="rt-button-3 ajk-verifier-submit">Login</a>
+										<div class="tl-clear"></div>
+									</form>
+									<a href="#" class="close">close</a>
+								</div>
+								<!-- /fp-block -->
+
+								<div class="fp-block fp-block-1 ajk-verifier">
+									<h3>Forgotten login details</h3>
+									<p>
+										Enter your email and we'll send you your username and a new password.
+									</p>
+									<form>
+										<div class="input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-format">email</span>
+											<span class="ajk-verifier-data ajk-verifier-tooltip">Please enter a valid email address</span>
+											<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+											<input name="email" class="ajk-verifier-control" type="text" value="Enter email" />
+										</div>
+										<a href="#" class="rt-button-3 ajk-verifier-submit">Submit</a>
+										<a href="#" class="rt-button-3 ajk-pd-back-to-start">Back</a>
+										<div class="verification-messages">
+											<p class="ajk-verifier-error-message">
+												Email not in database
+											</p>
+										</div>
+										<div class="tl-clear"></div>
+									</form>
+									<a href="#" class="close">Close</a>
+								</div>
+								<!-- /fp-block -->
+
+								<div class="fp-block fp-block-2 ajk-verifier">
+									<h3>Sending/checking email</h3>
+									<p>
+										We are in the process of checking your details/sending you an email. This may take a few seconds, so please be patient.
+									</p>
+									<div class="tl-clear"></div>
+									<a href="#" class="close">Close</a>
+								</div>
+								<!-- /fp-block -->
+
+								<div class="fp-block fp-block-3 ajk-verifier">
+									<h3>Email sent</h3>
+									<p>
+										We have sent you an email with your username and a new password. When you have logged in, you can change your password in the account tab.
+									</p>
+									<a href="#" class="rt-button-3 ajk-pd-back-to-start">Back</a>
+									<div class="tl-clear"></div>
+									<a href="#" class="close">Close</a>
+								</div>
+								<!-- /fp-block -->
+
+							</div>
+							<!-- /fp-stage -->
+						</div>
+						<!-- /fp-carousel -->
+					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+
+			<div id="ajk-pop-down-panel-sign-up" class="ajk-pop-down-panel ajk-pop-down-panel-align-top ajk-pop-down-panel-align-right-top-2">
+				<div class="top"></div>
+				<div class="content-holder">
+					<div class="content">
+
+						<div class="fp-carousel">
+							<div class="fp-stage">
+								<div class="fp-block fp-block-0 ajk-verifier">
+									<h3>Sign up</h3>
+									<p>
+										Signing up takes less than a minute - you'll be creating your first timeline in almost no time.
+									</p>
+									<form>
+										<div class="input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-chars">3-20</span>
+											<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+											<span class="ajk-verifier-data ajk-verifier-tooltip">Username must be at least three characters</span>
+											<input name="username" class="ajk-verifier-control" type="text" value="Enter username" />
+										</div>
+										<div class="input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-format">email</span>
+											<span class="ajk-verifier-data ajk-verifier-tooltip">Please enter a valid email address</span>
+											<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+											<input name="email" class="ajk-verifier-control" type="text" value="Enter email" />
+										</div>
+										<div class="input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-chars">3-20</span>
+											<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+											<span class="ajk-verifier-data ajk-verifier-tooltip">Password must be at least three characters</span>
+											<input name="tikitokisignuppassword" class="ajk-verifier-control" type="text" value="Enter password" />
+										</div>
+										<p>
+											If you have been given a class code, enter it below:
+										</p>
+										<div class="input-holder ajk-verifier-field">
+											<span class="ajk-verifier-data ajk-verifier-chars">0-50</span>
+											<span class="ajk-verifier-data ajk-verifier-hide-default-value">true</span>
+											<span class="ajk-verifier-data ajk-verifier-tooltip">Optional. Code your teacher gave you</span>
+											<input name="pupilClassCode" class="ajk-verifier-control" type="text" value="Enter class code" />
+										</div>
+										<div class="ajk-verifier-field ajk-verifier-field-checkbox">
+											<span class="ajk-verifier-data ajk-verifier-value-options">on</span>
+											<span class="ajk-verifier-data ajk-verifier-tooltip">You must agree to our terms to sign up</span>
+											<div class="rt-mp-checkbox">
+												<span name="agree" class="ajk-verifier-control" type="ajk-custom-checkbox">off</span>I agree to <a target="_blank" href="/termsandconditions">terms &amp; conditions</a>
+											</div>
+										</div>
+										<div class="verification-messages">
+											<p class="ajk-verifier-error-message">
+												Please check details and try again
+											</p>
+											<p class="ajk-verifier-submitting-message">
+												Checking details
+											</p>
+										</div>
+										<div class="verification-messages">
+											<p class="ajk-verifier-tooltip-displayer">
+												test
+											</p>
+										</div>
+										<a href="#" id="tl-main-sign-up-button" class="rt-button-3 ajk-verifier-submit">Sign up</a>
+										<div class="tl-clear"></div>
+									</form>
+
+									<a href="#" class="close">Close</a>
+								</div>
+								<!-- /fp-block -->
+
+								<div class="fp-block fp-block-0 ajk-verifier">
+									<h3>Thanks for signing up</h3>
+									<p>
+										Congratulations, you are now a signed up member of Tiki-Toki, the best online service for creating beautiful interactive timelines.
+									</p>
+									<p>
+										Click the below button to log in and get started creating your first timeline!
+									</p>
+									<a href="#" class="rt-button-3 tl-signup-auto-login-button">Log in</a>
+									<a href="#" class="close">Close</a>
+								</div>
+
+							</div>
+							<!-- /fp-stage -->
+						</div>
+						<!-- /fp-carousel -->
+
+					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+
+			<div id="ajk-pop-down-panel-contact-us" class="ajk-pop-down-panel ajk-pop-down-panel-align-top ajk-pop-down-panel-align-right-top">
+				<div class="top"></div>
+				<div class="content-holder">
+					<div class="content">
+						<h3>Contact us</h3>
+						<p>
+							We'd love to hear from you. Please send questions or feedback to the below email addresses.
+						</p>
+						<p>
+							Before contacting us, you may wish to visit our <a href="/faqs/">FAQs page</a> which has lots of useful info on Tiki-Toki.
+						</p>
+						<p>
+							We can be contacted by email at: <a href="mailto:hello@tiki-toki.com">hello@tiki-toki.com</a>.
+						</p>
+						<p>
+							You can also follow us on twitter at <a href="http://twitter.com/tiki_toki">twitter.com/tiki_toki</a>.
+						</p>
+						<p>
+							If you are having any problems with Tiki-Toki, please contact us as at: <a href="mailto:help@tiki-toki.com">help@tiki-toki.com</a>
+						</p>
+						<div class="tl-clear"></div>
+						<a href="#" class="close">Close</a>
+					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+
+			<div id="ajk-panel-secret-login" class="ajk-pop-down-panel ajk-pop-down-panel-no-arrow">
+				<div class="top"></div>
+				<div class="content-holder">
+					<div class="content ajk-verifier">
+						<h3>Edit this timeline</h3>
+						<p>
+							Enter your name and the secret word given to you by the timeline's owner.
+						</p>
+						<form>
+							<div class="input-holder ajk-verifier-field">
+								<span class="ajk-verifier-data ajk-verifier-chars">3-20</span>
+								<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+								<span class="ajk-verifier-data ajk-verifier-tooltip">Name must be at least three characters</span>
+								<input class="ajk-verifier-control" name="nickname" value="Name" />
+							</div>
+							<div class="input-holder ajk-verifier-field">
+								<span class="ajk-verifier-data ajk-verifier-chars">3-20</span>
+								<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+								<span class="ajk-verifier-data ajk-verifier-tooltip">You need a secret word to edit this timeline</span>
+								<input class="ajk-verifier-control" name="secret" value="Secret word" />
+							</div>
+							<div class="verification-messages">
+								<p class="ajk-verifier-submitting-message">
+									Checking details
+								</p>
+								<p class="ajk-verifier-tooltip-displayer"></p>
+							</div>
+							<div class="verification-messages">
+								<p class="ajk-verifier-error-message">
+									Please check details and try again
+								</p>
+							</div>
+							<a href="#" class="rt-button-3 ajk-verifier-submit">Go</a>
+							<div class="tl-clear"></div>
+						</form>
+						<a href="#" class="close">Close</a>
+					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+
+			<div id="tl-content-holder" class="tl-main-content-block-holder tl-font">
+				<div class="tl-mc-fade"></div>
+				<div class="tl-mc-coloured-border"></div>
+				<div class="tl-main-content-block">
+					<div class="tl-mc-top-right">
+						<div class="tl-mc-top-left">
+							<div class="tl-mc-carousel">
+								<div class="tl-mc-carousel-stage">
+
+									<div class="tl-mc-content">
+
+										<div class="tl-mc-content-images-and-text">
+
+											<div class="tl-ch-top-content">
+												<ul class="tl-ch-media-list">
+													<li rel="images" class="tl-ch-selected">
+														<a href="#"><em>Images</em> (<span>7</span>)</a>
+													</li>
+													<li rel="videos">
+														<a href="#"><em>Videos</em> (<span>2</span>)</a>
+													</li>
+													<li rel="audio">
+														<a href="#"><em>Audio</em> (<span>1</span>)</a>
+													</li>
+												</ul>
+												<a class="tl-ch-close-content" href="#">Close</a>
+												<h5 class="tl-ch-panel-date-display">10th August 2035</h5>
+											</div>
+
+											<div class="tl-ch-content-block tl-ch-gallery-block">
+												<div class="tl-gallery ak-gallery">
+													<div class="tl-g-main-content ak-gallery-stage-holder">
+														<div class="ak-gallery-image-storage"></div>
+														<div class="tl-g-main-stage ak-gallery-stage"></div>
+														<div class="tl-g-content-mask">
+															<div class="tl-g-content-mask-inner"></div>
+															<div class="tl-g-gallery-controls">
+																<a class="tl-g-gallery-control-left" href="#"></a>
+																<a class="tl-g-gallery-control-right" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="tl-g-thumb-holder">
+														<div class="tl-g-thumb-stage"></div>
+														<a class="tl-g-thumb-control-left" href="#"></a>
+														<a class="tl-g-thumb-control-right" href="#"></a>
+													</div>
+												</div>
+												<!-- /tl-gallery -->
+											</div>
+
+											<div class="tl-ch-content-block tl-ch-content-block-text">
+												<div class="tl-ch-content-block-inner ajk-content-scroller">
+													<div class="tl-ch-content-intro-block ajk-cs-carousel">
+														<div class="ajk-cs-carousel-stage">
+															<h3 class="tl-font-head"></h3>
+															<p class="tl-ch-standfirst tl-font-body"></p>
+															<p class="tl-ch-author"></p>
+															<div class="tl-ch-extra-info-text tl-font-body"></div>
+															<a href="#" class="tl-ch-full-story-link rt-button-medium rt-button-medium-long" target="_top">Read full story</a>
+														</div>
+														<div class="ajk-cs-carousel-scroll-holder">
+															<a href="#" class="ajk-cs-up-arrow"></a>
+															<a href="#" class="ajk-cs-down-arrow"></a>
+															<div class="ajk-cs-scroll-bar">
+																<span></span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="tl-ch-video-content">
+											<div class="tl-ch-vc-inner">
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tl-mc-bottom-right">
+						<div class="tl-mc-bottom-left">
+							<div class="tl-mc-footer-content">
+								<div class="tl-ch-bc-inner tl-ch-next-prev-story">
+									<p class="tl-ch-selected-story-num">
+										x1 of x2 stories
+									</p>
+									<a class="tl-ch-prev-story" href="#"></a>
+									<a class="tl-ch-next-story" href="#"></a>
+								</div>
+								<a class="tl-ch-close-video rt-button-3 rt-button-3-long" href="#">Close video</a>
+								<a href="#" id="tl-ch-start-timeline-button" class="tl-ch-start-timeline rt-button-3">Continue</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="tl-cp-image-viewer">
+				<div class="tl-cpiv-main-item"></div>
+				<div class="tl-cpiv-caption-holder">
+					<p></p>
+				</div>
+				<div class="tl-cpiv-content-mask">
+					<div class="tl-cpiv-content-mask-inner"></div>
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>
+
+		
+		<!-- image url -->
+
+		<div class="tl-ah-hide">
+			<div id="ft-ah-imglink-panel">
+				<div class="block">
+					<img src="/tikitoki/assets/ui/empty-image.gif" alt="" />
+					<div class="field">
+						<input />
+						<a href="#" class="button">Select</a>
+					</div>
+				</div>
+				<div class="requirements">
+					You must own the image or have permission from the owner to use it.
+				</div>
+			</div>
+		</div>
+
+		<!-- image uploader -->
+
+		<div class="tl-ah-hide">
+			<div id="ft-ah-imgup-upload">
+				<div class="block">
+
+					<form id="ft-ah-imgup-upload-form" enctype="multipart/form-data">
+						<input type="hidden" name="userId" value="19" />
+						<input type="hidden" name="timelineId" value="137152" />
+						<div id="ft-ah-imgup-flash-holder"></div>
+					</form>
+					<div id="ft-ah-imgup-submitting">
+						<img src="/tikitoki/assets/ui/empty-image.gif" alt="" />
+						<a class="upload" href="#">Upload now</a>
+						<a class="cancel" href="#">Cancel</a>
+					</div>
+					<div class="ft-ah-imgup-message" id="ft-ah-imgup-encoding">
+						<h4>Encoding image: <span>0</span>%</h4>
+					</div>
+					<div class="ft-ah-imgup-message" id="ft-ah-imgup-upping">
+						<h4>Please wait while we upload your image to our servers</h4>
+					</div>
+					<div class="ft-ah-imgup-message" id="ft-ah-imgup-uperror">
+						<h4>Something went wrong with your upload. Please <a id="ft-ah-imgup-try-again" href="#">try again</a>.</h4>
+					</div>
+					<div class="ft-ah-imgup-message" id="ft-ah-imgup-selection-disabled">
+						<h4>You have used up your allocation of uploaded images for this timeline. Remove existing images to add new ones. Or upgrade your account</h4>
+					</div>
+				</div>
+				<div class="requirements">
+					You will need Flash 10 or higher installed for our uploader to work. Download Flash <a href="#" target="_blank">here</a>. Uploaded images are only available with premium accounts. Downgrade your account and uploaded images will no longer appear.
+				</div>
+			</div>
+		</div>
+
+		<!-- Flickr Feed Item selectir -->
+
+		<div class="ajk-feed-item-selector tl-ah-feed-item-selector">
+			<div class="tl-ah-fis-fade ajk-ah-fis-fade"></div>
+			<div class="ajk-fis-panel tl-ah-fis-panel">
+				<div class="tl-ah-fis-top"></div>
+				<div class="tl-ah-fis-middle">
+					<div class="tl-ah-fis-content">
+						<div class="tl-ah-fis-content-inner">
+
+							<div class="tl-ah-fis-header">
+								<h3 class="ajk-fis-header-title">Title</h3>
+								<p class="ajk-fis-header-intro"></p>
+								<a href="#" class="ajk-fis-close tl-ah-fis-close">Close</a>
+							</div>
+							<div class="tl-panel-specific-content">
+								<div class="tl-ah-search-block">
+									<div class="tl-ah-fis-block tl-ah-fis-block-first ajk-verifier">
+										<h4 class="ajk-fis-option-1-title">Opt 1 title</h4>
+										<p class="ajk-fis-option-1-text">
+											Opt 1 text.
+										</p>
+										<div class="tl-ah-input ajk-verifier-field">
+											<form>
+												<span class="ajk-verifier-data ajk-verifier-chars">1-255</span>
+												<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+												<div class="tl-ah-f-inner">
+													<input class="ajk-fis-option-1-input ajk-verifier-control" name="opt1Search" />
+												</div>
+												<div class="tl-ah-f-right"></div>
+												<a href="#" class="tl-ah-search-button ajk-verifier-submit">Search</a>
+											</form>
+										</div>
+									</div>
+									<div class="tl-ah-fis-block tl-ah-fis-block-last ajk-verifier">
+										<form>
+											<h4 class="ajk-fis-option-2-title">Opt 2 title</h4>
+											<p class="ajk-fis-option-2-text">
+												Opt 2 text.
+											</p>
+											<div class="tl-ah-input ajk-verifier-field">
+												<span class="ajk-verifier-data ajk-verifier-chars">1-255</span>
+												<span class="ajk-verifier-data ajk-verifier-not-default-value">true</span>
+												<div class="tl-ah-f-inner">
+													<input class="ajk-fis-option-2-input ajk-verifier-control" name="opt2Search"/>
+												</div>
+												<div class="tl-ah-f-right"></div>
+												<a href="#" class="tl-ah-search-button ajk-verifier-submit">Search</a>
+											</div>
+										</form>
+									</div>
+									<div class="tl-clear"></div>
+									<div id="tl-flickr-error-overlay">
+										<h4>Flickr Integration Currently disabled</h4>
+										<p>
+											We are having an issue with Flickr images appearing on www.tiki-toki.com. We have therefore disabled Flickr integration while we try to sort this out.
+										</p>
+										<p>
+											In the meantime, if you have a webserver, we recommend that you upload your images there and then link to them in the media source field. Sorry for the inconvenience.
+										</p>
+									</div>
+								</div>
+								<!-- tl-ah-search-block -->
+								<div class="tl-ah-fis-search-results ajk-fis-search-results">
+									<h5 class="ajk-fis-search-text">&nbsp;</h5>
+									<div class="ajk-fis-item-carousel tl-ah-fis-image-carousel">
+										<div class="ajk-fis-item-carousel-stage">
+
+										</div>
+									</div>
+									<!-- tl-ah-fis-image-carousel -->
+									<div class="ajk-fis-controls tl-ah-fis-controls">
+										<div class="tl-ah-fis-controls-inner-1">
+											<div class="tl-ah-fis-controls-inner-2">
+												<a class="ajk-fis-controls-prev tl-ah-fis-controls-prev" href="#">&lt;</a>
+												<p>
+													<span class="ajk-fis-controls-page">1</span> of <span class="ajk-fis-controls-num-pages">10</span>
+												</p>
+												<a class="ajk-fis-controls-next tl-ah-fis-controls-next" href="#">&gt;</a>
+											</div>
+										</div>
+									</div>
+									<div class="tl-ah-fis-image-carousel-fade ajk-fis-item-carousel-fade">
+										<p>
+											You have reached the limit of 30 Flickr images on this timeline. You will need to remove Flickr images from the timeline to add new ones.
+										</p>
+									</div>
+									<div class="tl-clear"></div>
+								</div>
+							</div>
+							<!-- panel specific content -->
+						</div>
+					</div>
+					<!-- tl-ah-fis-content -->
+				</div>
+				<div class="tl-ah-fis-bottom"></div>
+			</div>
+		</div>
+
+		<div id="tl-general-purpose-panel-prototype" class="tl-general-purpose-panel-prototype tl-main-content-block-holder">
+			<div class="tl-mc-fade"></div>
+			<div class="tl-main-content-block">
+				<div class="tl-mc-top-right">
+					<div class="tl-mc-top-left">
+						<div class="tl-mc-content">
+							<div class="tl-ch-top-content">
+								<a class="tl-ch-close-content" href="#">Close</a>
+								<div></div>
+							</div>
+							<div class="tl-ch-main-content"></div>
+						</div>
+					</div>
+				</div>
+				<div class="tl-mc-bottom-right">
+					<div class="tl-mc-bottom-left">
+						<div class="tl-mc-footer-content">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="tl-promotions-panel-main-content" class="tl-ah-hide">
+			<div class="content tl-pp-content">
+				<div class="tl-pp-carousel-right-arrow">
+					<a href="#">Next</a>
+					<div class="tl-pp-carousel-right-arrow-highlighter">
+						Click for more options
+					</div>
+				</div>
+				<div class="tl-pp-carousel-arrow-disabled tl-pp-carousel-left-arrow">
+					<a href="#">Prev</a>
+				</div>
+				<div class="tl-pp-message-block-standard tl-pp-message-block tl-pp-message-block-hidden">
+					<h3>Please upgrade your account</h3>
+
+				</div>
+
+				<div class="tl-pp-message-block-bronze tl-pp-message-block tl-pp-message-block-hidden">
+					<h3>Please upgrade your account</h3>
+
+				</div>
+
+				<div class="tl-pp-message-block-silver tl-pp-message-block tl-pp-message-block-hidden">
+					<h3>Please upgrade your account</h3>
+
+				</div>
+
+				<div class="tl-pp-message-block-too-many-stories tl-pp-message-block tl-pp-message-block-hidden">
+					<h3>Please upgrade your account</h3>
+
+				</div>
+
+				<div class="tl-promotions-panel-carousel">
+					<div class="tl-ppc-stage">
+
+						<div class="tl-pp-column tl-pp-column-free-content">
+							<div class="tl-pp-star tl-pp-star-free">
+								Free
+							</div>
+							<div class="tl-pp-column-inner">
+
+							</div>
+						</div>
+
+						<div class="tl-pp-column tl-pp-column-education-content">
+							<div class="tl-pp-star tl-pp-star-education">
+
+							</div>
+							<div class="tl-pp-column-inner">
+
+							</div>
+						</div>
+
+						<div class="tl-pp-column tl-pp-column-bronze-content">
+							<div class="tl-pp-star tl-pp-star-bronze">
+								Bronze
+							</div>
+							<div class="tl-pp-column-inner">
+
+							</div>
+						</div>
+
+						<div class="tl-pp-column tl-pp-column-silver-content">
+							<div class="tl-pp-star tl-pp-star-silver">
+
+							</div>
+							<div class="tl-pp-column-inner">
+
+							</div>
+						</div>
+
+						<div class="tl-pp-column tl-pp-column-gold-content">
+							<div class="tl-pp-star tl-pp-star-gold">
+
+							</div>
+							<div class="tl-pp-column-inner"></div>
+						</div>
+
+						<div class="tl-clear"></div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /tl-pcc-stage -->
+		</div>
+		<!-- /tl-promotions-panel-carousel -->
+
+		<div id="tl-promotions-panel-footer-content" class="tl-ah-hide">
+			<div class="content">
+				<a class="tl-pp-footer-link tl-pp-footer-link-standard" href="#">No thanks. I will stick with my current account &gt;</a>
+			</div>
+		</div>
+
+		<div id="tl-ah-advanced-settings-form-content" class="tl-ah-hide">
+			<div class="tl-ah-form-holder ajk-verifier">
+				<form>
+
+					<div class="ajk-content-scroller">
+						<div class="ajk-cs-carousel">
+							<div class="ajk-cs-carousel-stage">
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>General options</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Timeline controls</h3>
+											<p>
+												The timeline controls allow timeline visitors to search, filter and zoom your timeline, as well as change the view display and spacing options.
+											</p>
+										</div>
+										<label for="tl-af-field-show-controls">Timeline controls:</label>
+										<select id="tl-af-field-show-controls" class="ajk-verifier-control" name="showControls">
+											<option value="0">Disabled</option>
+											<option value="1">Enabled</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Lazy image loading</h3>
+											<p>
+												Enabling lazy image loading helps your timeline load faster by only loading images when they are visible on screen. Recommended if your timeline has lots of images.
+											</p>
+										</div>
+										<label for="tl-af-field-lazy-loading">Lazy image loading:</label>
+										<select id="tl-af-field-lazy-loading" class="ajk-verifier-control" name="lazyLoading">
+											<option value="0">Disabled</option>
+											<option value="1">Enabled</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>HTML Formatting</h3>
+											<p>
+												Enable HTML formatting in a story's full text field (see the Extra info tab) and the timeline's about field.
+											</p>
+										</div>
+										<label for="tl-af-field-html-formatting">HTML formatting:</label>
+										<select id="tl-af-field-html-formatting" class="ajk-verifier-control" name="htmlFormatting">
+											<option value="1">On</option>
+											<option value="0">Off</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Intro Panel</h3>
+											<p>
+												Do you want to show the intro panel explaining what the timeline is about when people first arrive on the timeline page.
+											</p>
+										</div>
+										<label for="dontDisplayIntroPanel">Intro panel:</label>
+										<select class="ajk-verifier-control" name="dontDisplayIntroPanel">
+											<option value="0">Show on page load</option>
+											<option value="1">Don't show on page load</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Read more links</h3>
+											<p>
+												Choose if you want the 'Read more' buttons and story links to open in a new window or not.
+											</p>
+										</div>
+										<label for="openReadMoreLinks">Open links:</label>
+										<select class="ajk-verifier-control" name="openReadMoreLinks">
+											<option value="0">In current window</option>
+											<option value="1">In new window</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Url date hash</h3>
+											<p>
+												Choose to enable or disable the date/story hash that appears in the url and saves your positon on the timeline when you reload.
+											</p>
+										</div>
+										<label for="urlHashing">Url hashing:</label>
+										<select class="ajk-verifier-control" name="urlHashing">
+											<option value="0">On</option>
+											<option value="1">Off</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item tl-ah-hide">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Make timeline copyable</h3>
+											<p>
+												Choose whether you want other people to be able to copy your timeline. If yes, a "Copy this timeline" button will appear on your timeline.
+											</p>
+										</div>
+										<label for="copyable">Timeline copyable:</label>
+										<select class="ajk-verifier-control" name="copyable">
+											<option value="0">No</option>
+											<option value="1">Yes</option>
+										</select>
+									</div>
+
+								</div>
+								<!-- / tl-ah-form-section-->
+
+								<div class="tl-ah-form-section">
+									<h4>Language options</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Language</h3>
+											<p>
+												Select a language for your timeline. Note that the language only applies to the timeline, not the admin interface.
+											</p>
+										</div>
+										<label for="tl-af-field-language">Language:</label>
+										<select id="tl-af-field-language" class="ajk-verifier-control" name="language">
+											<option value="english">English</option>
+											<option value="english-common">English (CE/BCE)</option>
+											<option value="chinese-simplified">Chinese Simplified (简体中文)</option>
+											<option value="chinese-traditional">Chinese Traditional (繁體中文)</option>
+										</select>
+									</div>
+
+								</div>
+								<!-- / tl-ah-form-section-->
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>General customisation</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Image expander</h3>
+											<p>
+												Decide whether (and how) images in the content panel should expand to their original dimensions when clicked.
+											</p>
+										</div>
+										<label for="tl-af-field-image-expander">Image expander:</label>
+										<select id="tl-af-field-image-expander" class="ajk-verifier-control" name="expander">
+											<option value="0">Disabled</option>
+											<option value="1">Active - instant</option>
+											<option value="2">Active - animated</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Timeline vert stripes</h3>
+											<p>
+												Decide whether or not to display the vertical translucent stripes across the timeline.
+											</p>
+										</div>
+										<label for="tl-af-field-show-stripes">Timeline stripes:</label>
+										<select id="tl-af-field-show-stripes" class="ajk-verifier-control" name="displayStripes">
+											<option value="1">Show</option>
+											<option value="0">Hide</option>
+										</select>
+									</div>
+
+									<div id="tl-ah-as-css-file-field" class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>CSS File</h3>
+											<p>
+												Enter the url of a CSS file. You can use this file to overwrite our styles.
+											</p>
+										</div>
+										<label for="tl-af-field-css-file">CSS file url:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-css-file" name="cssFile" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Intro image credit</h3>
+											<p>
+												Enter a credit for the intro image.
+											</p>
+										</div>
+										<label for="tl-af-field-intro-image-credit">Intro img credit:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-intro-image-credit" name="introImageCredit" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Background credit</h3>
+											<p>
+												Enter a credit for the background image.
+											</p>
+										</div>
+										<label for="backgroundImageCredit">BG img credit:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input name="backgroundImageCredit" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Background Image Style</h3>
+											<p>
+												Choose a style for the background image. With the scrollable option, the background image scrolls as you move through the timeline.
+											</p>
+										</div>
+										<label for="tl-af-field-image-expander">BG image style:</label>
+										<select id="tl-af-field-image-expander" class="ajk-verifier-control" name="bgStyle">
+											<option value="0">Standard</option>
+											<option value="1">Scrollable</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Background Image Scale</h3>
+											<p>
+												Choose a value between 0.1 and 10 for scaling the background image up or down.
+											</p>
+										</div>
+										<label for="tl-af-field-bg-scale">BG image scale:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-bg-scale" name="bgScale" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+								</div>
+								<!-- / tl-ah-form-section-->
+
+								<div class="tl-ah-form-section">
+									<h4>Slider customisation</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Background Colour <span>(optional)</span></h3>
+											<p>
+												Choose a colour for the background of the slider.
+											</p>
+										</div>
+										<label for="tl-af-field-slider-background">Back colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-slider-background" value="000000" name="sliderBackgroundColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Text Colour <span>(optional)</span></h3>
+											<p>
+												Choose a colour for the text in the slider.
+											</p>
+										</div>
+										<label for="tl-af-field-slider-text">Text colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-slider-text" value="808080" name="sliderTextColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Details Colour <span>(optional)</span></h3>
+											<p>
+												Choose a colour for the details of the slider.
+											</p>
+										</div>
+										<label for="tl-af-field-slider-details">Details colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-slider-details" value="282828" name="sliderDetailsColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Dragger Colour <span>(optional)</span></h3>
+											<p>
+												Choose a colour for the dragger of the slider.
+											</p>
+										</div>
+										<label for="tl-af-field-slider-dragger">Dragger colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-slider-dragger" value="808080" name="sliderDraggerColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+								</div>
+								<!-- / tl-ah-form-section-->
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>Header customisation</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Background Colour <span>(optional)</span></h3>
+											<p>
+												Choose a colour for the background of the header.
+											</p>
+										</div>
+										<label for="tl-af-field-header-background">Back colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-header-background" value="000000" name="headerBackgroundColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Text Colour <span>(optional)</span></h3>
+											<p>
+												Choose a colour for the text in the header.
+											</p>
+										</div>
+										<label for="tl-af-field-header-text">Text colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-header-text" value="808080" name="headerTextColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+								</div>
+								<!-- / tl-ah-form-section-->
+
+								<div class="tl-ah-form-section">
+									<h4>Lightbox customisation</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Lightbox</h3>
+											<p>
+												Choose a style for the timeline's lightbox. Or disable the lightbox.
+											</p>
+										</div>
+										<label for="tl-af-field-lightbox-style">Lightbox:</label>
+
+										<select id="tl-af-field-lightbox-style" class="ajk-verifier-control" name="lightboxStyle">
+											<option value="0">Standard black</option>
+											<option value="1">White with colored borders</option>
+											<option value="2">Disabled</option>
+										</select>
+									</div>
+
+								</div>
+								<!-- / tl-ah-form-section-->
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>Font customisation</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Base Font</h3>
+											<p>
+												Choose a base font.
+											</p>
+										</div>
+										<label for="tl-af-field-font-base">Base font:</label>
+										<select id="tl-af-field-font-base" class="ajk-verifier-control" name="fontBase">
+											<option value="default">Default</option>
+											<optgroup label="Sans serif">
+												<option value='Arial, "Helvetica Neue", Helvetica, sans-serif;'>Arial</option>
+												<option value='"Arial Black", "Arial Bold", Gadget, sans-serif;'>Arial Black</option>
+												<option value='"Arial Narrow", Arial, sans-serif;'>Arial Narrow</option>
+												<option value='"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;'>Arial Rounded MT Bold</option>
+												<option value='"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;'>Avant Garde</option>
+												<option value='Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;'>Calibri</option>
+												<option value='Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;'>Candara</option>
+												<option value='"Century Gothic", CenturyGothic, "AppleGothic", sans-serif;'>Century Gothic</option>
+												<option value='"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;'>Franklin Gothic Medium</option>
+												<option value='Futura, "Trebuchet MS", Arial, sans-serif;'>Futura</option>
+												<option value='Geneva, Tahoma, Verdana, sans-serif;'>Geneva</option>
+												<option value='GillSansRegular,"Gill Sans MT","Gill Sans", Calibri, sans-serif;'>Gill Sans</option>
+												<option value='"Helvetica Neue", Helvetica, Arial, sans-serif;'>Helvetica</option>
+												<option value='Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;'>Impact</option>
+												<option value='"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;'>Lucida Grande</option>
+												<option value='Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;'>Optima</option>
+												<option value='"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;'>Segoe UI</option>
+												<option value='Tahoma, Verdana, Segoe, sans-serif;'>Tahoma</option>
+												<option value='"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;'>Trebuchet MS</option>
+												<option value='Verdana, Geneva, sans-serif;'>Verdana</option>
+											</optgroup>
+											<optgroup label="Serif">
+												<option value='Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;'>Baskerville</option>
+												<option value='"Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;'>Big Caslon</option>
+												<option value='"Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;'>Bodoni MT</option>
+												<option value='"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;'>Book Antiqua</option>
+												<option value='"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;'>Calisto MT</option>
+												<option value='Cambria, Georgia, serif;'>Cambria</option>
+												<option value='Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;'>Didot</option>
+												<option value='Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;'>Garamond</option>
+												<option value='Georgia, Times, "Times New Roman", serif;'>Georgia</option>
+												<option value='"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;'>Goudy Old Style</option>
+												<option value='"Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;'>Hoefler Text</option>
+												<option value='"Lucida Bright", Georgia, serif;'>Lucida Bright</option>
+												<option value='Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;'>Palatino</option>
+												<option value='Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;'>Perpetua</option>
+												<option value='Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;'>Rockwell</option>
+												<option value='"Rockwell Extra Bold", "Rockwell Bold", monospace;'>Rockwell Extra Bold</option>
+												<option value='TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;'>Times New Roman</option>
+											</optgroup>
+											<optgroup label="Monospaced">
+												<option value='"Andale Mono", AndaleMono, monospace;'>Andale Mono</option>
+												<option value='Consolas, monaco, monospace;'>Consolas</option>
+												<option value='"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;'>Courier New</option>
+												<option value='"Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;'>Lucida Console</option>
+												<option value='"Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;'>Lucida Sans Typewriter</option>
+												<option value='Monaco, Consolas, "Lucida Console", monospace;'>Monaco</option>
+											</optgroup>
+											<optgroup label="Fantasy">
+												<option value='Copperplate, "Copperplate Gothic Light", fantasy;'>Copperplate</option>
+												<option value='Papyrus, fantasy;'>Papyrus</option>
+											</optgroup>
+											<optgroup label="Script">
+												<option value='"Brush Script MT", cursive;'>Brush Script MT</option>
+												<option value='"Comic Sans MS", cursive'>Comic Sans MS</option>
+											</optgroup>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Headline Font</h3>
+											<p>
+												Choose a headline font.
+											</p>
+										</div>
+										<label for="tl-af-field-font-headline">Headline font:</label>
+										<select id="tl-af-field-font-headline" class="ajk-verifier-control" name="fontHead">
+											<option value="default">Default</option>
+											<optgroup label="Sans serif">
+												<option value='Arial, "Helvetica Neue", Helvetica, sans-serif;'>Arial</option>
+												<option value='"Arial Black", "Arial Bold", Gadget, sans-serif;'>Arial Black</option>
+												<option value='"Arial Narrow", Arial, sans-serif;'>Arial Narrow</option>
+												<option value='"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;'>Arial Rounded MT Bold</option>
+												<option value='"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;'>Avant Garde</option>
+												<option value='Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;'>Calibri</option>
+												<option value='Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;'>Candara</option>
+												<option value='"Century Gothic", CenturyGothic, "AppleGothic", sans-serif;'>Century Gothic</option>
+												<option value='"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;'>Franklin Gothic Medium</option>
+												<option value='Futura, "Trebuchet MS", Arial, sans-serif;'>Futura</option>
+												<option value='Geneva, Tahoma, Verdana, sans-serif;'>Geneva</option>
+												<option value='GillSansRegular,"Gill Sans MT","Gill Sans", Calibri, sans-serif;'>Gill Sans</option>
+												<option value='"Helvetica Neue", Helvetica, Arial, sans-serif;'>Helvetica</option>
+												<option value='Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;'>Impact</option>
+												<option value='"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;'>Lucida Grande</option>
+												<option value='Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;'>Optima</option>
+												<option value='"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;'>Segoe UI</option>
+												<option value='Tahoma, Verdana, Segoe, sans-serif;'>Tahoma</option>
+												<option value='"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;'>Trebuchet MS</option>
+												<option value='Verdana, Geneva, sans-serif;'>Verdana</option>
+											</optgroup>
+											<optgroup label="Serif">
+												<option value='Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;'>Baskerville</option>
+												<option value='"Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;'>Big Caslon</option>
+												<option value='"Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;'>Bodoni MT</option>
+												<option value='"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;'>Book Antiqua</option>
+												<option value='"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;'>Calisto MT</option>
+												<option value='Cambria, Georgia, serif;'>Cambria</option>
+												<option value='Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;'>Didot</option>
+												<option value='Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;'>Garamond</option>
+												<option value='Georgia, Times, "Times New Roman", serif;'>Georgia</option>
+												<option value='"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;'>Goudy Old Style</option>
+												<option value='"Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;'>Hoefler Text</option>
+												<option value='"Lucida Bright", Georgia, serif;'>Lucida Bright</option>
+												<option value='Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;'>Palatino</option>
+												<option value='Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;'>Perpetua</option>
+												<option value='Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;'>Rockwell</option>
+												<option value='"Rockwell Extra Bold", "Rockwell Bold", monospace;'>Rockwell Extra Bold</option>
+												<option value='TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;'>Times New Roman</option>
+											</optgroup>
+											<optgroup label="Monospaced">
+												<option value='"Andale Mono", AndaleMono, monospace;'>Andale Mono</option>
+												<option value='Consolas, monaco, monospace;'>Consolas</option>
+												<option value='"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;'>Courier New</option>
+												<option value='"Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;'>Lucida Console</option>
+												<option value='"Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;'>Lucida Sans Typewriter</option>
+												<option value='Monaco, Consolas, "Lucida Console", monospace;'>Monaco</option>
+											</optgroup>
+											<optgroup label="Fantasy">
+												<option value='Copperplate, "Copperplate Gothic Light", fantasy;'>Copperplate</option>
+												<option value='Papyrus, fantasy;'>Papyrus</option>
+											</optgroup>
+											<optgroup label="Script">
+												<option value='"Brush Script MT", cursive;'>Brush Script MT</option>
+												<option value='"Comic Sans MS", cursive'>Comic Sans MS</option>
+											</optgroup>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Body font</h3>
+											<p>
+												Choose a body font.
+											</p>
+										</div>
+										<label for="tl-af-field-font-body">Body font:</label>
+										<select id="tl-af-field-font-body" class="ajk-verifier-control" name="fontBody">
+											<option value="default">Default</option>
+											<optgroup label="Sans serif">
+												<option value='Arial, "Helvetica Neue", Helvetica, sans-serif;'>Arial</option>
+												<option value='"Arial Black", "Arial Bold", Gadget, sans-serif;'>Arial Black</option>
+												<option value='"Arial Narrow", Arial, sans-serif;'>Arial Narrow</option>
+												<option value='"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;'>Arial Rounded MT Bold</option>
+												<option value='"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;'>Avant Garde</option>
+												<option value='Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;'>Calibri</option>
+												<option value='Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;'>Candara</option>
+												<option value='"Century Gothic", CenturyGothic, "AppleGothic", sans-serif;'>Century Gothic</option>
+												<option value='"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;'>Franklin Gothic Medium</option>
+												<option value='Futura, "Trebuchet MS", Arial, sans-serif;'>Futura</option>
+												<option value='Geneva, Tahoma, Verdana, sans-serif;'>Geneva</option>
+												<option value='GillSansRegular,"Gill Sans MT","Gill Sans", Calibri, sans-serif;'>Gill Sans</option>
+												<option value='"Helvetica Neue", Helvetica, Arial, sans-serif;'>Helvetica</option>
+												<option value='Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;'>Impact</option>
+												<option value='"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;'>Lucida Grande</option>
+												<option value='Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;'>Optima</option>
+												<option value='"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;'>Segoe UI</option>
+												<option value='Tahoma, Verdana, Segoe, sans-serif;'>Tahoma</option>
+												<option value='"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;'>Trebuchet MS</option>
+												<option value='Verdana, Geneva, sans-serif;'>Verdana</option>
+											</optgroup>
+											<optgroup label="Serif">
+												<option value='Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;'>Baskerville</option>
+												<option value='"Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;'>Big Caslon</option>
+												<option value='"Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;'>Bodoni MT</option>
+												<option value='"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;'>Book Antiqua</option>
+												<option value='"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;'>Calisto MT</option>
+												<option value='Cambria, Georgia, serif;'>Cambria</option>
+												<option value='Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;'>Didot</option>
+												<option value='Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;'>Garamond</option>
+												<option value='Georgia, Times, "Times New Roman", serif;'>Georgia</option>
+												<option value='"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;'>Goudy Old Style</option>
+												<option value='"Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;'>Hoefler Text</option>
+												<option value='"Lucida Bright", Georgia, serif;'>Lucida Bright</option>
+												<option value='Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;'>Palatino</option>
+												<option value='Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;'>Perpetua</option>
+												<option value='Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;'>Rockwell</option>
+												<option value='"Rockwell Extra Bold", "Rockwell Bold", monospace;'>Rockwell Extra Bold</option>
+												<option value='TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;'>Times New Roman</option>
+											</optgroup>
+											<optgroup label="Monospaced">
+												<option value='"Andale Mono", AndaleMono, monospace;'>Andale Mono</option>
+												<option value='Consolas, monaco, monospace;'>Consolas</option>
+												<option value='"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;'>Courier New</option>
+												<option value='"Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;'>Lucida Console</option>
+												<option value='"Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;'>Lucida Sans Typewriter</option>
+												<option value='Monaco, Consolas, "Lucida Console", monospace;'>Monaco</option>
+											</optgroup>
+											<optgroup label="Fantasy">
+												<option value='Copperplate, "Copperplate Gothic Light", fantasy;'>Copperplate</option>
+												<option value='Papyrus, fantasy;'>Papyrus</option>
+											</optgroup>
+											<optgroup label="Script">
+												<option value='"Brush Script MT", cursive;'>Brush Script MT</option>
+												<option value='"Comic Sans MS", cursive'>Comic Sans MS</option>
+											</optgroup>
+										</select>
+									</div>
+
+								</div>
+
+								<div class="tl-ah-form-section">
+									<h4>Embedded timeline options</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Show title and menu</h3>
+											<p>
+												Show or hide the black title block at the top of the timeline. Note that this only applies to timelines when they are embedded.
+											</p>
+										</div>
+										<label for="showTitleBlock">Title and menu:</label>
+										<select class="ajk-verifier-control" name="showTitleBlock">
+											<option value="0">Hide</option>
+											<option value="1">Show</option>
+										</select>
+									</div>
+
+								</div>
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>Date formatting</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Story date display</h3>
+											<p>
+												How the story date should be displayed.
+											</p>
+										</div>
+										<label for="storyDateStatus">Story date display:</label>
+										<select class="ajk-verifier-control" name="storyDateStatus">
+											<option value="0">Auto</option>
+											<option value="1">Hide</option>
+											<option value="2">Estimate</option>
+										</select>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item tl-ah-field-date-formatter">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Story date format <span>(optional)</span></h3>
+											<p>
+												Enter/select a string to format the date for a story.
+											</p>
+										</div>
+										<label for="tl-field-story-date-format">Story date format:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-field-story-date-format" name="storyDateFormat" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item tl-ah-field-date-formatter">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Slider date format <span>(optional)</span></h3>
+											<p>
+												Enter/select a string to format the dates displayed in the slider.
+											</p>
+										</div>
+										<label for="tl-field-slider-date-format">Slider date format:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-field-slider-date-format" name="sliderDateFormat" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item tl-ah-field-date-formatter">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Top date format <span>(optional)</span></h3>
+											<p>
+												Enter/select a string to format the date displayed at the top of the timeline.
+											</p>
+										</div>
+										<label for="tl-field-top-date-format">Top date format:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-field-top-date-format" name="topDateFormat" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="tl-ah-form-section">
+									<h4>Group edit options</h4>
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Secret word</h3>
+											<p>
+												Provide a secret word that other people can enter to edit this timeline. Only share the secret word with people you trust.
+											</p>
+										</div>
+										<label for="secretWord">Secret word:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input name="secretWord" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Show Author</h3>
+											<p>
+												Select 'Yes' if you would like the author name to appear for stories created by group edit users. Or 'No' if you do not want them to appear.
+											</p>
+										</div>
+										<label for="public">Show author:</label>
+										<select class="ajk-verifier-control" name="showGroupAuthorNames">
+											<option value="1">Yes</option>
+											<option value="0">No</option>
+										</select>
+									</div>
+
+								</div>
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>Privacy</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Privacy</h3>
+											<p>
+												Choose a privacy option for your timeline.
+											</p>
+										</div>
+										<label for="public">Timeline status:</label>
+										<select class="ajk-verifier-control" name="public">
+											<option value="yes">Public</option>
+											<option value="no">Private</option>
+											<option value="pwd">Password protected</option>
+										</select>
+									</div>
+
+									<div id="tl-field-privacy-password" class="tl-ah-field tl-ah-field-standard ajk-verifier-field">
+										<div class="tl-ahh-data tl-ahh-data-content"></div>
+										<label for="tl-af-field-dur-head-colour">Password:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input name="privacyPassword" class="ajk-verifier-control " />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="tl-ah-form-section">
+									<h4>Duration story</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+										<div class="tl-ahh-data tl-ahh-data-content">
+											<h3>Text Colour</h3>
+											<p>
+												Choose a colour for the text of a duration event. This can be useful if your timeline has a white or light background.
+											</p>
+										</div>
+										<label for="tl-af-field-dur-head-colour">Text colour:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-dur-head-colour" value="ffffff" name="durHeadlineColour" class="ajk-verifier-control ajk-color-selector" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tl-ah-form-section tl-ah-form-section-dark">
+									<h4>Flickr Image Replacement</h4>
+
+									<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field">
+										<div class="tl-ahh-data tl-ahh-data-content">
+
+										</div>
+										<label for="tl-af-field-alt-flickr-path">altFlickrPath:</label>
+										<div class="tl-ah-input">
+											<div class="tl-ah-f-inner">
+												<input id="tl-af-field-alt-flickr-path" name="altFlickrImageUrl" class="ajk-verifier-control" />
+											</div>
+											<div class="tl-ah-f-right"></div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<!-- /ajk-cs-carousel-stage -->
+							<div class="ajk-cs-carousel-scroll-holder">
+								<a href="#" class="ajk-cs-up-arrow"></a>
+								<a href="#" class="ajk-cs-down-arrow"></a>
+								<div class="ajk-cs-scroll-bar">
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tl-ah-form-button-holder">
+						<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-submit">Save</a>
+						<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-revert">Revert</a>
+						<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-cancel">Cancel</a>
+					</div>
+					<div class="tl-clear"></div>
+
+					<div class="verification-messages">
+						<p class="ajk-verifier-error-message">
+							Please check details and try again
+						</p>
+						<p class="ajk-verifier-submitting-message">
+							Checking details
+						</p>
+					</div>
+					<div class="verification-messages">
+						<p class="ajk-verifier-tooltip-displayer">
+							test
+						</p>
+					</div>
+
+				</form>
+				<div class="tl-asp-help-text"></div>
+			</div>
+		</div>
+
+		<div id="tl-ah-3d-settings-form-content" class="tl-ah-hide">
+			<div class="tl-ah-form-holder ajk-verifier">
+				<form>
+
+					<div class="tl-ah-form-section tl-ah-form-section-dark">
+						<div class="tl-ah-3d-col tl-ah-3d-col-1">
+
+							<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Status
+									</p>
+								</div>
+								<label for="tl-3d-field-status">Status:</label>
+								<select id="tl-3d-field-status" class="ajk-verifier-control" name="timeline3DStatus">
+									<option value="0">Disabled</option>
+									<option value="1">Enabled</option>
+									<option value="2">Default</option>
+								</select>
+							</div>
+
+							<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field tl-ahh-help-item">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Direction
+									</p>
+								</div>
+								<label for="tl-3d-field-direction">Direction:</label>
+								<select id="tl-3d-field-direction" class="ajk-verifier-control" name="timeline3DDirection">
+									<option value="0">Looking into the past</option>
+									<option value="1">Looking into future</option>
+								</select>
+							</div>
+
+							<div class="tl-ah-field tl-ah-field-half-width ajk-verifier-field tl-ahh-help-item">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Color
+									</p>
+								</div>
+								<label for="tl-3d-field-color">Color:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-color" name="timeline3DColor"class="ajk-verifier-control ajk-color-selector" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+							<div class="tl-ah-field ajk-verifier-field tl-ahh-help-item ft-component-value-slider">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Background fade
+									</p>
+								</div>
+								<label for="tl-3d-field-bg-fade">BG image opacity:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-bg-fade" name="timelineBGFade" range="1,0" class="ajk-verifier-control" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+							<div class="tl-ah-field ajk-verifier-field tl-ahh-help-item ft-component-value-slider">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Panel size
+									</p>
+								</div>
+								<label for="tl-3d-field-panel-size">Panel size:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-panel-size" name="timeline3DPanelSize" range="3000,500" class="ajk-verifier-control" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tl-ah-3d-col tl-ah-3d-col-2">
+
+							<div class="tl-ah-field ajk-verifier-field tl-ahh-help-item ft-component-value-slider">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Zoom
+									</p>
+								</div>
+								<label for="tl-3d-field-zoom">Zoom:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-zoom" name="timeline3DZoom" range="0.01,1" class="ajk-verifier-control" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+							<div class="tl-ah-field ajk-verifier-field tl-ahh-help-item ft-component-value-slider">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Vanishing point
+									</p>
+								</div>
+								<label for="tl-3d-field-vanishing-point">Vanishing point pos:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-vanishing-point" name="timeline3DVanishTop" range="0,0.36" class="ajk-verifier-control" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+							<div class="tl-ah-field ajk-verifier-field tl-ahh-help-item ft-component-value-slider">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Sections
+									</p>
+								</div>
+								<label for="tl-3d-field-num-strips">Sections:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-num-strips" name="timeline3DNumCols" range="1,9" class="ajk-verifier-control" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+							<div class="tl-ah-field ajk-verifier-field tl-ahh-help-item ft-component-value-slider">
+								<div class="tl-ahh-data tl-ahh-data-content">
+									<p>
+										Timeline width
+									</p>
+								</div>
+								<label for="tl-3d-field-timeline-width">Timeline width:</label>
+								<div class="tl-ah-input">
+									<div class="tl-ah-f-inner">
+										<input id="tl-3d-field-timeline-width" name="timeline3DEndToScreenRatio" range="0.75,2" class="ajk-verifier-control" />
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+						</div>
+						<div class="tl-clear"></div>
+					</div>
+
+					<div class="tl-ah-form-button-holder">
+						<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-submit">Save</a>
+						<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-revert">Revert</a>
+						<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-cancel">Cancel</a>
+					</div>
+					<div class="tl-clear"></div>
+
+					<div class="verification-messages">
+						<p class="ajk-verifier-error-message">
+							Please check details and try again
+						</p>
+						<p class="ajk-verifier-submitting-message">
+							Checking details
+						</p>
+					</div>
+					<div class="verification-messages">
+						<p class="ajk-verifier-tooltip-displayer">
+							test
+						</p>
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+		<div id="tl-ah-image-positioning-panel-content" class="tl-ah-hide">
+			<div id="tl-ah-image-positioning-panel">
+				<div class="tl-ahip-input">
+					<div class="tl-ahip-input-vertical-align">
+						<h4>Vertical alignment</h4>
+						<p>
+							Choose whether you want the image aligned to the top, bottom or centre. Or drag image to the position you want below.
+						</p>
+						<select>
+							<option value="-1">Top</option>
+							<option value="1">Bottom</option>
+							<option value="0">Centre</option>
+							<option value="custom">Custom</option>
+						</select>
+					</div>
+					<div class="tl-ahip-input-horiz-align">
+						<h4>Horizontal alignment</h4>
+						<p>
+							Choose whether you want the image aligned to the left, right or centre. Or drag image to the position you want below.
+						</p>
+						<select>
+							<option value="-1">Left</option>
+							<option value="1">Right</option>
+							<option value="0">Centre</option>
+							<option value="custom">Custom</option>
+						</select>
+					</div>
+					<div class="tl-clear"></div>
+				</div>
+				<div class="tl-ahip-positioning">
+					<div class="tl-ahip-img-holder tl-ahip-img-holder-1"></div>
+					<div class="tl-ahip-img-holder tl-ahip-img-holder-2"></div>
+					<div class="tl-ahip-img-holder tl-ahip-img-holder-3 tl-ahip-main-img-holder"></div>
+					<div class="tl-ahip-img-holder tl-ahip-img-holder-4"></div>
+					<div class="tl-ahip-img-holder tl-ahip-img-holder-5"></div>
+					<div class="tl-ahip-fake-dragger"></div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="tl-ah-hide">
+
+			<div id="tl-ah-embed-form">
+				<div class="tl-ah-block tl-ah-block-dark">
+					<h4 class="tl-ah-selected-headline tl-ah-selected-headline-less-padding">Enter the width and height you want for your embeddable timeline. You should then copy the code from the 'embed' box and add it to your website or blog.</h4><h4 class="tl-ah-selected-headline tl-ah-selected-headline-less-padding">The 'Public' setting for your timeline MUST be set to 'Yes' for your embedded timeline to be viewable. For HTTPS sites, replace http://www.tiki-toki.com/... with https://www.tiki-toki.com/...</h4>
+				</div>
+				<div class="tl-ah-block">
+					<div class="tl-ah-form-holder ajk-verifier">
+
+						<form>
+
+							<div class="tl-ah-two-field-holder-1">
+								<div class="tl-ah-field tl-ah-field-half-width ajk-verifier-field">
+									<span class="ajk-verifier-data ajk-verifier-format">number</span>
+									<label for="startDate">Width:</label>
+									<div class="tl-ah-input">
+										<div class="tl-ah-f-inner">
+											<input class="ajk-verifier-control" name="width" value="900" />
+										</div>
+										<div class="tl-ah-f-right"></div>
+									</div>
+								</div>
+								<div class="tl-ah-field tl-ah-field-half-width tl-ah-field-align-right ajk-verifier-field">
+									<span class="ajk-verifier-data ajk-verifier-format">number</span>
+									<label for="endDate">Height:</label>
+									<div class="tl-ah-input">
+										<div class="tl-ah-f-inner">
+											<input class="ajk-verifier-control" name="height" value="480" />
+										</div>
+										<div class="tl-ah-f-right"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tl-ah-field tl-ah-field-standard ajk-verifier-field">
+								<label for="fullText">Embed:</label>
+								<div class="tl-ah-input tl-ah-input-textarea tl-ah-input-textarea-large">
+									<div class="tl-ah-f-inner">
+										<textarea class="ajk-verifier-control" name="embed" readonly="yes"></textarea>
+									</div>
+									<div class="tl-ah-f-right"></div>
+								</div>
+							</div>
+
+							<div class="tl-ah-form-button-holder">
+								<a href="#" class="rt-button-4 rt-button-align-right ajk-verifier-submit">Preview</a>
+							</div>
+							<div class="tl-clear"></div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="tl-ah-csv-panel">
+				<div class="tl-ah-block">
+					<div class="tl-ah-form-holder ajk-verifier">
+						<div class="tl-ah-form-button-holder">
+							<a id="tl-ah-export-csv-button" href="./csv/" class="rt-button-4">Export</a>
+							<p id="tl-ah-csv-downloading-message">
+								Your CSV file is now downloading. Check your download folder for "timelinedata.csv"
+							</p>
+						</div>
+						<div class="tl-clear"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="tl-ah-pdf-panel">
+				<div class="tl-ah-block">
+
+					<ul class="tl-ah-panel-instruction-list tl-ah-show-mac">
+						<li>
+							<p>
+								<span>1.</span> Download, install and run the free <a href="http://derailer.org/paparazzi/" target="_blank">Paparazzi</a>** website screenshot app.
+							</p>
+						</li>
+						<li>
+							<p>
+								<span>2.</span> Enter the following url into Paparazzi and take a website screenshot.
+							</p>
+							<p class="tl-ah-pdf-web-link"></p>
+						</li>
+						<li>
+							<p>
+								<span>3.</span> Open the image that Paparazzi has created in the Preview app. Rotate the image and save.
+							</p>
+						</li>
+						<li>
+							<p>
+								<span>4.</span> Now open the rotated image in Safari and select the print option. In the print panel, adjust the scale to fit your needs, and then save as a PDF.
+							</p>
+						</li>
+						<li>
+							<p>
+								<span>5.</span> You can now use the PDF to print out the timeline over multiple pages.
+							</p>
+						</li>
+					</ul>
+					<ul class="tl-ah-panel-instruction-list tl-ah-show-pc">
+						<li>
+							<p>
+								<span>1.</span> Download, install and run the free <a href="http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Capture/WebShot.shtml" target="_blank">Webshot</a>** screenshot app on Softpedia. Take care to skip the special offers if you don't want them.
+							</p>
+						</li>
+						<li>
+							<p>
+								<span>2.</span> Enter the following url into Webshot and take a website screenshot.
+							</p>
+							<p class="tl-ah-pdf-web-link"></p>
+							<li>
+								<p>
+									<span>3.</span> You now have an image of the timeline. If you want a PDF too, download and install the free <a href="http://sourceforge.net/projects/pdfcreator/" target="_blank">pdfcreator</a>** app.
+								</p>
+							</li>
+							<li>
+								<p>
+									<span>4.</span> Now open the image created in Step 2 in MS Paint and rotate the image ninety degrees so it is portrait.
+								</p>
+							</li>
+							<li>
+								<p>
+									<span>5.</span> Go to 'Page setup' under the Print menu and ensure that orientation is 'portrait' and scaling is 'adjust to 100%'.
+								</p>
+							</li>
+							<li>
+								<p>
+									<span>6.</span> Now choose MS Paint's print option and choose 'pdfcreator' as the printer. This will create a PDF of the timeline.
+								</p>
+							</li>
+							<li>
+								<p>
+									<span>7.</span> You can now use the PDF to print out the timeline over multiple pages.
+								</p>
+							</li>
+					</ul>
+					<p class="extras">
+						*Timelines must be a maximum of 50,000 pixels wide for this to work. You may need to zoom out or use the Equal Spacing modes in order to get your timeline below 50,000 pixels wide.
+					</p>
+					<p class="extras">
+						**We cannot guarantee the reliability of external apps. Use at your own risk.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script id="timelinedata-script" type="text/javascript" src="data.js"></script>
+	</body>
+</html>
