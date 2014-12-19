@@ -14,7 +14,7 @@ var TLTimelineData = {
 	//introImage : "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tower_of_london_from_swissre.jpg/627px-Tower_of_london_from_swissre.jpg",
 	authorName : "Alex Kearns",
 	"accountType" : "Sliver",
-	//backgroundImage : "/tikitoki/assets/ui/bg.jpg",
+	//backgroundImage : "assets/ui/bg.jpg",
 	//introImageCredit : "",
 	//backgroundImageCredit : "Image courtesy of Matthias Kabel via WikiMedia Commons",
 	feed : "",
