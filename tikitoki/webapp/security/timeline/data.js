@@ -1,22 +1,25 @@
-var TLTimelineData = {
+TLTimelineData = {
 	id : 137152,
 	storySpacing : 1,
 
 	host : "www.ctrip.com",
 	homePage : false,
 	showAdBlock : "false",
-	
+
 	title : "RELEASE STATUS DASHBOARD",
 	urlFriendlyTitle : "RELEASE STATUS DASHBOARD",
 	startDate : "1000-04-01 00:00:00",
 	endDate : "2020-04-30 00:00:00",
-	//introText : "A 3D version of our history of the Tower of London timeline.",
-	//introImage : "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tower_of_london_from_swissre.jpg/627px-Tower_of_london_from_swissre.jpg",
+	// introText : "A 3D version of our history of the Tower of London
+	// timeline.",
+	// introImage :
+	// "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tower_of_london_from_swissre.jpg/627px-Tower_of_london_from_swissre.jpg",
 	authorName : "Alex Kearns",
 	"accountType" : "Sliver",
-	//backgroundImage : "assets/ui/bg.jpg",
-	//introImageCredit : "",
-	//backgroundImageCredit : "Image courtesy of Matthias Kabel via WikiMedia Commons",
+	// backgroundImage : "assets/ui/bg.jpg",
+	// introImageCredit : "",
+	// backgroundImageCredit : "Image courtesy of Matthias Kabel via WikiMedia
+	// Commons",
 	feed : "",
 	mainColour : "9e9e9e",
 	zoom : "decade-small-year",
@@ -28,17 +31,17 @@ var TLTimelineData = {
 	dontDisplayIntroPanel : 1,
 	openReadMoreLinks : 1,
 	storyDateStatus : 0,
-	
+
 	viewType : 1,
 	showTitleBlock : 0,
 	backgroundColour : "none",
-	"storyDateFormat": "MM-DD HH:mm",//auto
-    "topDateFormat": "YYYY-MM-DD HH:mm",//auto
-    "sliderDateFormat": "MM-DD HH:mm",//auto
-    
-	"language": "chinese-simplified",
-    "displayStripes": 1,
-    "htmlFormatting": 1,
+	"storyDateFormat" : "MM-DD HH:mm",// auto
+	"topDateFormat" : "YYYY-MM-DD HH:mm",// auto
+	"sliderDateFormat" : "MM-DD HH:mm",// auto
+
+	"language" : "chinese-simplified",
+	"displayStripes" : 1,
+	"htmlFormatting" : 1,
 	containerBackgroundColour : "37474f",
 	sliderBackgroundColour : "001414",
 	sliderTextColour : "808080",
@@ -207,7 +210,7 @@ var TLTimelineData = {
 		"rows" : "1",
 		"order" : "18",
 		"size" : "1"
-	}],
+	} ],
 	feeds : [],
 	stories : [
 			{
@@ -224,9 +227,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597651,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/HenryVIofEngland.JPG/328px-HenryVIofEngland.JPG",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/HenryVIofEngland.JPG/328px-HenryVIofEngland.JPG",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.5",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -248,9 +252,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597652,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hans_Holbein_d._J._-_Portrait_of_Henry_VIII_-_WGA11558.jpg/322px-Hans_Holbein_d._J._-_Portrait_of_Henry_VIII_-_WGA11558.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hans_Holbein_d._J._-_Portrait_of_Henry_VIII_-_WGA11558.jpg/322px-Hans_Holbein_d._J._-_Portrait_of_Henry_VIII_-_WGA11558.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -273,9 +278,10 @@ var TLTimelineData = {
 				media : [
 						{
 							id : 597653,
-							//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tower_of_London_White_Tower.jpg/320px-Tower_of_London_White_Tower.jpg",
+							// src :
+							// "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tower_of_London_White_Tower.jpg/320px-Tower_of_London_White_Tower.jpg",
 							caption : "Photo by Bernard Gagnon, from Wikimedia Commons",
-							//type : "Image",
+							// type : "Image",
 							thumbPosition : "0,0",
 							externalMediaThumb : "",
 							externalMediaType : "",
@@ -284,9 +290,10 @@ var TLTimelineData = {
 						},
 						{
 							id : 597654,
-							//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Towrlndn.JPG/424px-Towrlndn.JPG",
+							// src :
+							// "http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Towrlndn.JPG/424px-Towrlndn.JPG",
 							caption : "Illumination showing the White Tower from manuscript of poems by Charles, Duke of Orleans, in the 15th century - the original manuscript is held in the British Library",
-							//type : "Image",
+							// type : "Image",
 							thumbPosition : "0,0",
 							externalMediaThumb : "",
 							externalMediaType : "",
@@ -322,9 +329,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/William_II_of_England",
 				media : [ {
 					id : 597655,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/9/92/William_II_of_England.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/9/92/William_II_of_England.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.3696",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -346,9 +354,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/William_the_Conqueror",
 				media : [ {
 					id : 597656,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/3/36/Vilem1.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/3/36/Vilem1.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.6827",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -370,9 +379,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Henry_I_of_England",
 				media : [ {
 					id : 597657,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Henry1.jpg/295px-Henry1.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Henry1.jpg/295px-Henry1.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.7215",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -394,9 +404,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Stephen,_King_of_England",
 				media : [ {
 					id : 597658,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/2/23/Stepan_Blois.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/2/23/Stepan_Blois.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.5436",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -418,9 +429,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Henry_II_of_England",
 				media : [ {
 					id : 597659,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/48/Henry_II_of_England.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/48/Henry_II_of_England.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.1904",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -442,9 +454,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Ranulf_Flambard",
 				media : [ {
 					id : 597660,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/8/88/Westminster_Hall_edited.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/8/88/Westminster_Hall_edited.jpg",
 					caption : "Drawing from 1800s of Westminster Hall; Flambard oversaw the construction of the walls in 1090s",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -466,9 +479,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597661,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/43/Richard_coeur_de_lion.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/43/Richard_coeur_de_lion.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.4782",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -490,9 +504,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/John_of_England",
 				media : [ {
 					id : 597662,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/41/Jan_tomb.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/41/Jan_tomb.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -514,9 +529,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Henry_III_of_England",
 				media : [ {
 					id : 597663,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/7/70/Henrytreti.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/7/70/Henrytreti.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -538,9 +554,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Edward_I_of_England",
 				media : [ {
 					id : 597664,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/b/ba/Eduard1_korunovace.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/b/ba/Eduard1_korunovace.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -562,9 +579,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597665,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/9/96/Seal_of_Edward_II.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/9/96/Seal_of_Edward_II.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -586,9 +604,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597666,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Edward_III_Black_Prince_14thc.jpg/416px-Edward_III_Black_Prince_14thc.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Edward_III_Black_Prince_14thc.jpg/416px-Edward_III_Black_Prince_14thc.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.5555",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -610,9 +629,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597667,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/d/d1/Richard2_Anna.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/d/d1/Richard2_Anna.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -634,9 +654,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597668,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/King_Henry_IV_from_NPG_%282%29.jpg/367px-King_Henry_IV_from_NPG_%282%29.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/King_Henry_IV_from_NPG_%282%29.jpg/367px-King_Henry_IV_from_NPG_%282%29.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.52",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -658,9 +679,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597669,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Henry5.JPG/430px-Henry5.JPG",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Henry5.JPG/430px-Henry5.JPG",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.2586",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -682,9 +704,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597670,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/HenryVIofEngland.JPG/328px-HenryVIofEngland.JPG",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/HenryVIofEngland.JPG/328px-HenryVIofEngland.JPG",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.4843",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -706,9 +729,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597671,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/41/EdwardIVofEngland-Yorkist.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/41/EdwardIVofEngland-Yorkist.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -730,9 +754,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597672,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/41/EdwardIVofEngland-Yorkist.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/41/EdwardIVofEngland-Yorkist.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -754,9 +779,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597673,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/5/53/King-edward-v.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/5/53/King-edward-v.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.671",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -778,9 +804,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597674,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/King_Richard_III_from_NPG.jpg/334px-King_Richard_III_from_NPG.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/King_Richard_III_from_NPG.jpg/334px-King_Richard_III_from_NPG.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -802,9 +829,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597675,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/King_Henry_VII_from_NPG.jpg/368px-King_Henry_VII_from_NPG.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/King_Henry_VII_from_NPG.jpg/368px-King_Henry_VII_from_NPG.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.2727",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -826,9 +854,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597676,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Portrait_of_Edward_VI_of_England.jpg/379px-Portrait_of_Edward_VI_of_England.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Portrait_of_Edward_VI_of_England.jpg/379px-Portrait_of_Edward_VI_of_England.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.5268",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -850,9 +879,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597677,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/47/Mary_I_of_England_Mor.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/47/Mary_I_of_England_Mor.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -874,9 +904,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597678,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Elizabeth_I_Rainbow_Portrait.jpg/338px-Elizabeth_I_Rainbow_Portrait.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Elizabeth_I_Rainbow_Portrait.jpg/338px-Elizabeth_I_Rainbow_Portrait.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -898,9 +929,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597679,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/9/99/James_II_by_Peter_Lely.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/9/99/James_II_by_Peter_Lely.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.5955",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -922,9 +954,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597680,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/King_James_I_of_England_and_VI_of_Scotland_by_John_De_Critz_the_Elder.jpg/347px-King_James_I_of_England_and_VI_of_Scotland_by_John_De_Critz_the_Elder.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/King_James_I_of_England_and_VI_of_Scotland_by_John_De_Critz_the_Elder.jpg/347px-King_James_I_of_England_and_VI_of_Scotland_by_John_De_Critz_the_Elder.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -946,9 +979,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597681,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Charles_I_%28Daniel_Mytens%29.jpg/387px-Charles_I_%28Daniel_Mytens%29.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Charles_I_%28Daniel_Mytens%29.jpg/387px-Charles_I_%28Daniel_Mytens%29.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.4545",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -970,9 +1004,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597682,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Oliver_Cromwell_by_Robert_Walker.jpg/386px-Oliver_Cromwell_by_Robert_Walker.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Oliver_Cromwell_by_Robert_Walker.jpg/386px-Oliver_Cromwell_by_Robert_Walker.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.4318",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -994,9 +1029,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597683,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/7/74/RichardCromwell.jpeg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/7/74/RichardCromwell.jpeg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.4065",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1018,9 +1054,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597684,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Charles_II_%281670s%29.jpg/396px-Charles_II_%281670s%29.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Charles_II_%281670s%29.jpg/396px-Charles_II_%281670s%29.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.6626",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1040,28 +1077,29 @@ var TLTimelineData = {
 				category : "95716",
 				dateFormat : "auto",
 				externalLink : "",
-				media : [
-						{
-							id : 597686,
-							//src : "http://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Portrait_of_William_III%2C_%281650-1702%29.jpg/382px-Portrait_of_William_III%2C_%281650-1702%29.jpg",
-							caption : "",
-							//type : "Image",
-							thumbPosition : "0,-0.7333",
-							externalMediaThumb : "",
-							externalMediaType : "",
-							externalMediaId : "",
-							orderIndex : 1
-						}, {
-							id : 597685,
-							//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Queen_Mary_II.jpg/398px-Queen_Mary_II.jpg",
-							caption : "",
-							//type : "Image",
-							thumbPosition : "0,0",
-							externalMediaThumb : "",
-							externalMediaType : "",
-							externalMediaId : "",
-							orderIndex : 10
-						} ]
+				media : [ {
+					id : 597686,
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Portrait_of_William_III%2C_%281650-1702%29.jpg/382px-Portrait_of_William_III%2C_%281650-1702%29.jpg",
+					caption : "",
+					// type : "Image",
+					thumbPosition : "0,-0.7333",
+					externalMediaThumb : "",
+					externalMediaType : "",
+					externalMediaId : "",
+					orderIndex : 1
+				}, {
+					id : 597685,
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Queen_Mary_II.jpg/398px-Queen_Mary_II.jpg",
+					caption : "",
+					// type : "Image",
+					thumbPosition : "0,0",
+					externalMediaThumb : "",
+					externalMediaType : "",
+					externalMediaId : "",
+					orderIndex : 10
+				} ]
 			},
 			{
 				id : 1320917,
@@ -1077,9 +1115,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597687,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Anne1705.jpg/290px-Anne1705.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Anne1705.jpg/290px-Anne1705.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1101,9 +1140,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597688,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt.jpg/292px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt.jpg/292px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1125,9 +1165,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597689,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/George_II_by_Thomas_Hudson.jpg/290px-George_II_by_Thomas_Hudson.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/George_II_by_Thomas_Hudson.jpg/290px-George_II_by_Thomas_Hudson.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1149,9 +1190,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597690,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/George_III_in_Coronation_edit.jpg/330px-George_III_in_Coronation_edit.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/George_III_in_Coronation_edit.jpg/330px-George_III_in_Coronation_edit.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1173,9 +1215,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597691,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/George_IV_van_het_Verenigd_Koninkrijk.jpg/347px-George_IV_van_het_Verenigd_Koninkrijk.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/George_IV_van_het_Verenigd_Koninkrijk.jpg/347px-George_IV_van_het_Verenigd_Koninkrijk.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1197,9 +1240,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597692,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/William_IV.jpg/314px-William_IV.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/William_IV.jpg/314px-William_IV.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.2714",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1221,9 +1265,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597693,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coronation_portrait_of_Queen_Victoria_-_Hayter_1838.jpg/380px-Coronation_portrait_of_Queen_Victoria_-_Hayter_1838.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coronation_portrait_of_Queen_Victoria_-_Hayter_1838.jpg/380px-Coronation_portrait_of_Queen_Victoria_-_Hayter_1838.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1245,9 +1290,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597694,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Edward_VII_in_coronation_robes.jpg/340px-Edward_VII_in_coronation_robes.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Edward_VII_in_coronation_robes.jpg/340px-Edward_VII_in_coronation_robes.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1269,9 +1315,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597695,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/George_V_of_the_united_Kingdom.jpg/341px-George_V_of_the_united_Kingdom.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/George_V_of_the_united_Kingdom.jpg/341px-George_V_of_the_united_Kingdom.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1293,9 +1340,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597696,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/3/3b/A030596.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/3/3b/A030596.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1317,9 +1365,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597697,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/King_George_VI_crop.jpg/383px-King_George_VI_crop.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/King_George_VI_crop.jpg/383px-King_George_VI_crop.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1341,9 +1390,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597698,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Elizabeth_and_Philip_1953.jpg/411px-Elizabeth_and_Philip_1953.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Elizabeth_and_Philip_1953.jpg/411px-Elizabeth_and_Philip_1953.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1365,9 +1415,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/War_of_the_roses",
 				media : [ {
 					id : 597699,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/d/d3/Siege_of_London_%28MS_1168%29.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/d/d3/Siege_of_London_%28MS_1168%29.jpg",
 					caption : "Siege of London, dated 1471",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.05",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1417,9 +1468,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Princes_in_the_Tower",
 				media : [ {
 					id : 597700,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/archive/c/c0/20130108125223%21Princes.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/archive/c/c0/20130108125223%21Princes.jpg",
 					caption : "Painting by John Everett Millais",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.375",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1441,9 +1493,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/House_of_Tudor",
 				media : [ {
 					id : 597701,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Bosworth_by_Philip_James_de_Loutherbourg.jpg/637px-Battle_of_Bosworth_by_Philip_James_de_Loutherbourg.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Bosworth_by_Philip_James_de_Loutherbourg.jpg/637px-Battle_of_Bosworth_by_Philip_James_de_Loutherbourg.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1479,9 +1532,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Thomas_Becket",
 				media : [ {
 					id : 597702,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/English_-_Martyrdom_of_Saint_Thomas_Becket_-_Walters_W3415V_-_Open_Reverse.jpg/344px-English_-_Martyrdom_of_Saint_Thomas_Becket_-_Walters_W3415V_-_Open_Reverse.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/English_-_Martyrdom_of_Saint_Thomas_Becket_-_Walters_W3415V_-_Open_Reverse.jpg/344px-English_-_Martyrdom_of_Saint_Thomas_Becket_-_Walters_W3415V_-_Open_Reverse.jpg",
 					caption : "Illumination showing the martyrdom of Archbishop Thomas Becket - the manuscript is held by Walters Art Museum",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1517,9 +1571,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597703,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/9/91/Philippe_Auguste_et_Richard_Acre.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/9/91/Philippe_Auguste_et_Richard_Acre.jpg",
 					caption : "Richard I and Philip II of France receive the keys to Acre whilst on Crusade",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1541,9 +1596,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Magna_Carta",
 				media : [ {
 					id : 597704,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Magna_Carta.jpg/320px-Magna_Carta.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Magna_Carta.jpg/320px-Magna_Carta.jpg",
 					caption : "One of four known manuscripts, held by the British Library",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1565,9 +1621,10 @@ var TLTimelineData = {
 				externalLink : "http://www.hrp.org.uk/TowerofLondon/Stories/Palacehighlights/RoyalBeasts/Menageriehistory",
 				media : [ {
 					id : 597705,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wire_animals_at_tower.jpg/320px-Wire_animals_at_tower.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wire_animals_at_tower.jpg/320px-Wire_animals_at_tower.jpg",
 					caption : "Photo of wire models of animals at the Tower of London, 2011",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1631,9 +1688,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597706,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Whitetowerlondon.jpg/360px-Whitetowerlondon.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Whitetowerlondon.jpg/360px-Whitetowerlondon.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1683,9 +1741,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Margaret_de_Clare,_Baroness_Badlesmere",
 				media : [ {
 					id : 597707,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/0/05/Retour_d_Isabelle_de_France_en_Angleterre.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/0/05/Retour_d_Isabelle_de_France_en_Angleterre.jpg",
 					caption : "Queen Isabella returning to England with her son Edward (soon to become Edward III) in 1326",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1707,9 +1766,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Peasants%27_Revolt",
 				media : [ {
 					id : 597708,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/a/a0/Richard_II_meets_rebels.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/a/a0/Richard_II_meets_rebels.jpg",
 					caption : "Richard II meets with the rebels of the Peasants' Revolt",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1731,9 +1791,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597709,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/0/0d/Chaucer_ellesmere.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/0/0d/Chaucer_ellesmere.jpg",
 					caption : "Illumination from Ellesmere Manuscript showing Chaucer as a pilgrim, held by Huntington Library",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1755,9 +1816,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Anne_Boleyn",
 				media : [ {
 					id : 597710,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Anne_boleyn.jpg/366px-Anne_boleyn.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Anne_boleyn.jpg/366px-Anne_boleyn.jpg",
 					caption : "Anne Boleyn, late 16th century copy of original painting",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.7425",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1779,9 +1841,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Lady_Jane_Grey",
 				media : [ {
 					id : 597711,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Streathamladyjayne.jpg/371px-Streathamladyjayne.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Streathamladyjayne.jpg/371px-Streathamladyjayne.jpg",
 					caption : "Lady Jane Grey, Streatham Portrait",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1817,9 +1880,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/St._Peter_ad_Vincula_(London)",
 				media : [ {
 					id : 597712,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/4/4b/St-Peter-Ad-Vincula.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/4/4b/St-Peter-Ad-Vincula.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1841,9 +1905,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Gunpowder_Plot",
 				media : [ {
 					id : 597713,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/b/b8/GunpowderPlot.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/b/b8/GunpowderPlot.jpg",
 					caption : "Broadside ballad of the plot, dating from late 17th or early 18th century",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1865,9 +1930,10 @@ var TLTimelineData = {
 				externalLink : "",
 				media : [ {
 					id : 597714,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/8/8e/Imperial_State_Crown2.JPG",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/8/8e/Imperial_State_Crown2.JPG",
 					caption : "Imperial State Crown",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1889,9 +1955,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Fire_of_London",
 				media : [ {
 					id : 597715,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/b/b6/Great_Fire_London.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/b/b6/Great_Fire_London.jpg",
 					caption : "",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1927,9 +1994,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Isaac_Newton",
 				media : [ {
 					id : 597716,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/archive/3/39/20090609182224%21GodfreyKneller-IsaacNewton-1689.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/archive/3/39/20090609182224%21GodfreyKneller-IsaacNewton-1689.jpg",
 					caption : "Portrait of Sir Isaac Newton in 1689 by Sir Godfrey Kneller",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.475",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1951,9 +2019,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Tower_Hill",
 				media : [ {
 					id : 597717,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/3/31/Monmouth%27s_Execution.gif",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/3/31/Monmouth%27s_Execution.gif",
 					caption : "Execution of Monmouth in 1685 on Tower Hill",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.2",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -1989,9 +2058,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/The_Tower_of_London_(novel)",
 				media : [ {
 					id : 597718,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/The_Tower_of_London.jpg/282px-The_Tower_of_London.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/The_Tower_of_London.jpg/282px-The_Tower_of_London.jpg",
 					caption : "Title page of the novel",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0.475",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2013,9 +2083,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Koh-i-Noor",
 				media : [ {
 					id : 597719,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/AlexandraKohinoor.jpg/285px-AlexandraKohinoor.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/AlexandraKohinoor.jpg/285px-AlexandraKohinoor.jpg",
 					caption : "Queen Consort Alexandra wearing her coronation crown with the Koh-i-Noor in 1902",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.825",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2037,9 +2108,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Kray_twins",
 				media : [ {
 					id : 597720,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/The_blind_beggar_1.jpg/134px-The_blind_beggar_1.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/The_blind_beggar_1.jpg/134px-The_blind_beggar_1.jpg",
 					caption : "The Blind Beggar Pub where Ronnie Kray killed a man in 1966, Photograph by Fin Fahey in 2005",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0.7",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2061,9 +2133,10 @@ var TLTimelineData = {
 				externalLink : "http://whc.unesco.org/en/list/488",
 				media : [ {
 					id : 597721,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tower_of_London_main_entrance%2C_2009.jpg/320px-Tower_of_London_main_entrance%2C_2009.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tower_of_London_main_entrance%2C_2009.jpg/320px-Tower_of_London_main_entrance%2C_2009.jpg",
 					caption : "Main entrance in 2009, photo taken by Patrick C, Flickr username dynamosquito",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,0",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2085,9 +2158,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Moira_Cameron",
 				media : [ {
 					id : 597722,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/a/a7/Moira_Cameron.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/a/a7/Moira_Cameron.jpg",
 					caption : "Photo taken by en.wikipedia user Joshd",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.65",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2123,9 +2197,10 @@ var TLTimelineData = {
 				externalLink : "http://www.hrp.org.uk/HamptonCourtPalace/CatherineHoward",
 				media : [ {
 					id : 597723,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/3/32/HowardCatherine02.jpeg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/3/32/HowardCatherine02.jpeg",
 					caption : "Portrait of Catherine Howard by Hans Holbein the Younger",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-1",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2147,9 +2222,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/Thomas_more",
 				media : [ {
 					id : 597724,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg/386px-Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg/386px-Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
 					caption : "Portrait of Sir Thomas More in 1527 by Hans Holbein the Younger, held by the Frick Collection",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.55",
 					externalMediaThumb : "",
 					externalMediaType : "",
@@ -2185,9 +2261,10 @@ var TLTimelineData = {
 				externalLink : "http://en.wikipedia.org/wiki/The_Anarchy",
 				media : [ {
 					id : 597725,
-					//src : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/BL_Royal_20_A._ii%2C_f._6v._Henry_I_%26_White_Ship.jpg/305px-BL_Royal_20_A._ii%2C_f._6v._Henry_I_%26_White_Ship.jpg",
+					// src :
+					// "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/BL_Royal_20_A._ii%2C_f._6v._Henry_I_%26_White_Ship.jpg/305px-BL_Royal_20_A._ii%2C_f._6v._Henry_I_%26_White_Ship.jpg",
 					caption : "14th century manuscript showing Henry I and the White Ship which sunk with his son and heir",
-					//type : "Image",
+					// type : "Image",
 					thumbPosition : "0,-0.85",
 					externalMediaThumb : "",
 					externalMediaType : "",

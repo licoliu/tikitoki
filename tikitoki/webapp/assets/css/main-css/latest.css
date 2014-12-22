@@ -439,7 +439,9 @@ body, .tl-ch-selected-story-num, .tl-ch-top-content {
 	
 	overflow-x: hidden;
 	overflow-y: auto;
-	/*overflow: hidden;background: #1a1a1a;*/
+	
+	background: #1a1a1a;
+	/*overflow: hidden;*/
 }
 #tl-stage-image {
 	display: none;
@@ -2775,10 +2777,10 @@ body, .tl-ch-selected-story-num, .tl-ch-top-content {
 	bottom: 72px
 }
 .tl-selected-view-3d #tl-timeline-3d-launch {
-	bottom: 10px
+	/*bottom: 10px*/
 }
 .tl-container-minimum-layout-2 #tl-timeline-3d-launch {
-	bottom: 10px
+	/*bottom: 10px*/
 }
 .tl-selected-view-3d .tl-stage-fixed-position-content {
 	padding-top: 60px;
