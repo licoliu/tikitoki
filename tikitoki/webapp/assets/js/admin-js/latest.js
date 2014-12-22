@@ -1876,7 +1876,7 @@ AJKUploadImageSelector.prototype = {
 				+ widthLimit
 				+ '&amp;jpg_quality=85&amp;preview_max_height=100&amp;preview_max_width=300&amp;show_encode_progress=true&amp;js_get_form_data=AJKUploadImageSelector.selector1.serializeForm&amp;js_event_handler=AJKUploadImageSelector.selector1.uploadEvent&amp;return_submit_response=true&amp;file_filter=*.jpg;*.jpeg;*.gif;*.png;*.JPG;*.JPEG;*.GIF;*.PNG&amp;file_filter_description=Files&amp;max_post_size=1572864&amp;file_limit=-1&amp;firebug=false&amp;form_action=http://'
 				+ AJKHelpers.uploadDomain
-				+ '/processtikitokiimage.php&amp;button_up=/assets/image-resizer-uploader/browse_up.png&amp;button_down=/assets/image-resizer-uploader/browse_down.png&amp;button_over=/assets/image-resizer-uploader/browse_over.png">';
+				+ '/processimage.php&amp;button_up=/assets/image-resizer-uploader/browse_up.png&amp;button_down=/assets/image-resizer-uploader/browse_down.png&amp;button_over=/assets/image-resizer-uploader/browse_over.png">';
 		iHTML += '<param name="wmode" value="transparent">';
 		iHTML += '</object>';
 		$(self.domFlashHolder).empty().append(iHTML);

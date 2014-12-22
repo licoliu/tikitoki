@@ -189,12 +189,12 @@ var AJKHelpers = {
 	},
 	emptyImage : "../assets/ui/empty-image.gif",
 	cloudfront : "d8lktyzx0qqvd.cloudfront.net",
-	uploadDomain : "tikitokiservices.com",
+	uploadDomain : "lico.atom.com",
 	getProcessedImageUrlForAccount : function(data) {
 		var imgSrc = data.imgSrc;
 		var accountType = data.accountType;
 		var forceShow = data.forceShow;
-		if (imgSrc && imgSrc.indexOf("tikitokiservices.com") != -1) {
+		if (imgSrc && imgSrc.indexOf("lico.atom.com") != -1) {
 			return this.emptyImage;
 			/*
 			if (accountType == "Standard" && !forceShow) {
@@ -10972,7 +10972,7 @@ TLLoginPanelController.prototype = {
 					return;
 				}
 				self.loggingIn = true;
-				data.fieldData["password"] = data.fieldData["tikitokipassword"];
+				data.fieldData["password"] = data.fieldData["timelinepassword"];
 				theAJKAjaxController.request({
 					action : "/login/",
 					method : "post",
@@ -10986,7 +10986,7 @@ TLLoginPanelController.prototype = {
 								fieldName : "username"
 							});
 							self.loginVerification.errorHighlightField({
-								fieldName : "tikitokipassword"
+								fieldName : "timelinepassword"
 							});
 							self.loginVerification.displayErrorMessage({
 								message : TLConfigText['loginPopdown_incorrectLogin_message']
@@ -11148,7 +11148,7 @@ TLSignupPanelController.prototype = {
 			self.controller.loginPanelController.loginVerification.setFieldValues({
 				fieldValues : {
 					username : self.username,
-					tikitokipassword : self.userPassword
+					timelinepassword : self.userPassword
 				}
 			});
 			self.controller.loginPanelController.loginVerification.fireButton({
@@ -11166,7 +11166,7 @@ TLSignupPanelController.prototype = {
 					return;
 				}
 				self.signingUp = true;
-				data.fieldData["password"] = data.fieldData["tikitokisignuppassword"];
+				data.fieldData["password"] = data.fieldData["timelinesignuppassword"];
 				self.username = data.fieldData["username"];
 				self.userPassword = data.fieldData["password"];
 				data.fieldData["pupilClassCode"] = (data.fieldData["pupilClassCode"] == TLConfigText['signup_Enter_class_code']) ? "" : data.fieldData["pupilClassCode"];
